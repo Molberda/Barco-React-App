@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import './App.css';
+import Landing from './components/Landing';
 import Nav from './components/Nav';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <Router>
       <Nav/>
       <Routes>
-        <Route to=""/>
+        <Route to="/" element={<Landing/>}/>
       </Routes>
     </Router>
   );
