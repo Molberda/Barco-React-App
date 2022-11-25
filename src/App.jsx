@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Nav/>
       <Routes>
-        <Route to="/"/>
+        <Route to=""/>
       </Routes>
     </Router>
   );
