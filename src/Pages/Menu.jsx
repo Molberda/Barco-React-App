@@ -2,8 +2,8 @@ import React from 'react';
 
 const Menu = () => {
     return (
-        <div>
-            iaeuhdiuaeh
+        <div className='row'>
+            <h1 className='title'>Menu</h1>
         </div>
     );
 }
