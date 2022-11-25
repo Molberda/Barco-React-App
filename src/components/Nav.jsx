@@ -1,11 +1,12 @@
 import React from 'react';
+import Logo from '../assets/barco__logo.png'
 
 const Nav = () => {
     return (
         <nav>
           <figure className="barco__logo--wrapper">
             <img
-              src="./assets/barco__logo.png"
+              src={Logo}
               alt="logo"
               className="barco__logo"
             />
