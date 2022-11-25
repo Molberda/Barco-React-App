@@ -5,9 +5,11 @@ import Logo from "../assets/barco__logo.png";
 const Nav = () => {
   return (
     <nav>
-      <figure className="barco__logo--wrapper">
-        <img src={Logo} alt="logo" className="barco__logo" />
-      </figure>
+      <Link to="/">
+        <figure className="barco__logo--wrapper">
+          <img src={Logo} alt="logo" className="barco__logo" />
+        </figure>
+      </Link>
       <ul className="nav__link--list">
         <li className="nav__list--item">
           <a href="#acerca" className="nav__link">
