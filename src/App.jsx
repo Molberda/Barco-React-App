@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import './App.css';
-import Landing from './components/Landing';
 import Nav from './components/Nav';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <Router>
       <Nav/>
       <Routes>
-        <Route to="/" element={<Landing/>}/>
+        <Route to="/" element={<Home/>}/>
       </Routes>
     </Router>
   );
