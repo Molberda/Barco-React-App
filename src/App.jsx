@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
 
@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Nav/>
       <Routes>
-        <Route />
+        <Route to="/"/>
       </Routes>
     </Router>
   );
