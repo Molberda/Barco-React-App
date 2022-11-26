@@ -25,6 +25,10 @@ margin: 0 auto
 margin: 0 auto
 }
 
+.organizer {
+  max-width: 590px;
+}
+
 img {
   width: 100%;
   border-radius: inherit;
@@ -152,9 +156,7 @@ LANDING
   }
 }
 
-.landing__organizer {
-  max-width: 590px;
-}
+
 
 .landing__description--container {
   display: flex;
