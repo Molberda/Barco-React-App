@@ -74,7 +74,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 12px;
+  max-width: 1200px;
+  margin: 12px auto ;
+  padding: 0 24px;
   animation: slideIn 1000ms;
 }
 

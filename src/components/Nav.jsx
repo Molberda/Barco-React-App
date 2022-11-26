@@ -4,7 +4,6 @@ import Logo from "../assets/barco__logo.png";
 
 const Nav = () => {
   return (
-    <div className="row">
       <nav>
         <Link to="/">
           <figure className="barco__logo--wrapper">
@@ -31,7 +30,6 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
-    </div>
   );
 };
 
