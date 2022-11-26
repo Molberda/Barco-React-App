@@ -3,7 +3,7 @@ import Landing from '../components/Landing';
 
 const Home = () => {
     return (
-        <div className='row'>
+        <div className='container'>
             <Landing />
         </div>
     );

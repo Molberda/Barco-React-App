@@ -17,19 +17,12 @@ body {
 }
 
 .row {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-  height: 100%;
-  gap: 90px;
+max-width: 1200px;
+margin: 0 auto
 }
 
 .container {
-  display: flex;
-  width: 100%;
+margin: 0 auto
 }
 
 img {
