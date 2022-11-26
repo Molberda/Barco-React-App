@@ -18,12 +18,12 @@ body {
 
 .row {
 max-width: 1200px;
-margin: 150px auto;
+margin: 0 auto;
 padding: 0 24px
 }
 
 .container {
-margin: 0 auto
+height: 100%;
 }
 
 .organizer {
@@ -140,7 +140,7 @@ LANDING
 */
 
 #landing {
-  height: 100vh;
+  height: 80vh;
   position: relative;
 }
 
