@@ -75,6 +75,7 @@ nav {
   align-items: center;
   width: 100%;
   max-width: 1200px;
+  height: 8vh;
   margin: 12px auto ;
   padding: 0 24px;
   animation: slideIn 1000ms;
@@ -140,7 +141,7 @@ LANDING
 */
 
 #landing {
-  height: 80vh;
+  height: 88vh;
   position: relative;
 }
 
