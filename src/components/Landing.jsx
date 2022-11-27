@@ -1,5 +1,6 @@
 import React from "react";
 import landingImg from '../assets/Barco-cheers.png'
+import Scroll from "../ui/Scroll";
 
 const Landing = () => {
   return (
@@ -31,6 +32,7 @@ const Landing = () => {
       <figure className="landing__img--wrapper">
         <img src={landingImg} alt="" className="landing__img" />
       </figure>
+      <Scroll link="#contactanos"/>
     </div>
   );
 };
