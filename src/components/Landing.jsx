@@ -1,4 +1,5 @@
 import React from "react";
+import landingImg from '../assets/Barco-cheers.png'
 
 const Landing = () => {
   return (
@@ -27,6 +28,9 @@ const Landing = () => {
           </ul>
         </div>
       </div>
+      <figure className="landing__img--wrapper">
+        <img src= alt="" className="landing__img" />
+      </figure>
     </div>
   );
 };
