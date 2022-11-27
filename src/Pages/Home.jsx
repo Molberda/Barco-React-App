@@ -1,4 +1,5 @@
 import React from "react";
+import Acerca from "../components/Acerca";
 import Landing from "../components/Landing";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <section id="landing">
       <div className="container">
         <Landing />
+        <Acerca />
       </div>
     </section>
   );
