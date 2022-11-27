@@ -272,6 +272,7 @@ LANDING
   justify-content: center;
   align-items: center;
   opacity: 0.3;
+  z-index: 100;
 }
 
 .scroll__dot {
