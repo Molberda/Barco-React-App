@@ -2,9 +2,13 @@ import React from 'react';
 
 const Acerca = () => {
     return (
-        <div>
-            
+       <section id="acerca">
+        <div className="container">
+            <div className="row">
+                
+            </div>
         </div>
+       </section>
     );
 }
 
