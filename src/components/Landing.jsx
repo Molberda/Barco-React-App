@@ -32,7 +32,7 @@ const Landing = () => {
       <figure className="landing__img--wrapper">
         <img src={landingImg} alt="" className="landing__img" />
       </figure>
-      <Scroll link="#contactanos"/>
+      <Scroll link="#acerca"/>
     </div>
   );
 };
