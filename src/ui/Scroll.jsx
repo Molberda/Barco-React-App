@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Scroll = () => {
+const Scroll = ({ link }) => {
     return (
-        <a href="#contactanos">
+        <a href={link}>
         <div class="scroll__icon click">
           <div class="scroll__dot"></div>
         </div>
