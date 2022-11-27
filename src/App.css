@@ -22,6 +22,14 @@ margin: 0 auto;
 padding: 0 24px
 }
 
+.row__column {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 24px;
+display: flex;
+flex-direction: column;
+}
+
 .container {
 height: 100%;
 }
