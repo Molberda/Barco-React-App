@@ -2,9 +2,9 @@ import React from 'react';
 
 const Map = () => {
     return (
-        <div>
+        <figure className="map__wrapper">
             
-        </div>
+        </figure>
     );
 }
 
