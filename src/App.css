@@ -306,10 +306,6 @@ ACERCA
 
 .acerca__row {
   max-width: 1400px;
-  justify-content: center;
-}
-
-.acerca__container {
   justify-content: space-between;
 }
 
