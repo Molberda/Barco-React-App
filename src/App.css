@@ -266,7 +266,7 @@ LANDING
   border-radius: 20px;
   height: 44px;
   width: 24px;
-  bottom: 90px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -300,7 +300,7 @@ ACERCA
 */
 
 #acerca {
-  height: 60vh;
+  height: 70vh;
   position: relative;
   margin-top: 100px;
 }
@@ -308,6 +308,7 @@ ACERCA
 .acerca__row {
   max-width: 1400px;
   justify-content: space-between;
+  padding-bottom: 120px;
 }
 
 .acerca__img--wrapper {
@@ -338,11 +339,11 @@ CONTACTANOS
 */
 
 #contactanos {
-  height: 60vh;
+  height: 70vh;
 }
 
 .ubicacion__row {
-padding: 200px 0;
+padding: 120px 0;
 }
 
 .ubicacion__container {
