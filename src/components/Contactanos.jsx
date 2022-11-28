@@ -1,4 +1,5 @@
 import React from "react";
+import Map from "../ui/Map";
 
 const Contactanos = () => {
   return (
@@ -14,14 +15,16 @@ const Contactanos = () => {
               <a
                 href="https://www.instagram.com/barco_pola/"
                 target="_blank"
+                rel="noreferrer"
                 class="text insta__link"
               >
-                @barco_pola
+                @Barco_Pola
               </a>{" "}
               <br />
               No dudes en contactarnos!! 👍
             </p>
           </div>
+          <Map />
         </div>
       </div>
     </section>
