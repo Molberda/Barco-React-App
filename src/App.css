@@ -300,8 +300,9 @@ ACERCA
 */
 
 #acerca {
-  height: 100vh;
+  height: 60vh;
   position: relative;
+  margin-top: 100px;
 }
 
 .acerca__row {
