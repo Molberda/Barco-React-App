@@ -11,6 +11,7 @@ const Acerca = () => {
           </figure>
           <div className="organizer">
             <h1 className="title">¿QUIENES SOMOS?</h1>
+            <h2 className="text"></h2>
           </div>
         </div>
       </div>

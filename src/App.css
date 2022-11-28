@@ -17,24 +17,25 @@ body {
 }
 
 .row {
-max-width: 1200px;
-margin: 0 auto;
-padding: 0 24px;
-display: flex;
-justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .row__column {
-max-width: 1200px;
-margin: 0 auto;
-padding: 0 24px;
-display: flex;
-flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
   padding-top: 80px;
-height: 100%;
+  height: 100%;
+  animation: slideInR 1000ms;
 }
 
 .organizer {
@@ -156,11 +157,11 @@ LANDING
   position: relative;
 }
 
-.landing__container {
+/* .landing__container {
   justify-content: space-between;
   max-height: 620px;
-  animation: slideInR 1000ms;
-}
+  
+} */
 
 @keyframes slideInR {
   0% {
@@ -170,8 +171,6 @@ LANDING
     transform: translateX(0px);
   }
 }
-
-
 
 .landing__description--container {
   display: flex;
@@ -369,4 +368,3 @@ CONTACTANOS
 .insta__link:hover {
   font-size: 34px;
 }
-
