@@ -1,5 +1,6 @@
 import React from "react";
 import Acerca from "../components/Acerca";
+import Contactanos from "../components/Contactanos";
 import Landing from "../components/Landing";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Landing />
       <Acerca />
+      <Contactanos />
     </div>
   );
 };
