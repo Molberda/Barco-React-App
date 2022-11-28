@@ -1,5 +1,6 @@
 import React from "react";
 import acercaImg from "../assets/barco_noche.jpeg";
+import Scroll from "../ui/Scroll";
 
 const Acerca = () => {
   return (
@@ -15,6 +16,7 @@ const Acerca = () => {
           </div>
         </div>
       </div>
+      <Scroll link="#contactanos"/>
     </section>
   );
 };
