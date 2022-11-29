@@ -404,13 +404,14 @@ footer{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-size: 30px;
+  color: #020621;
+  font-size: 24px;
+  font-weight: bold;
   transition: all 300ms ease;
 }
 
 .footer__logo--wrapper:hover .footer__pop-out{
-  transform: translate(150px, -50%);
+  transform: translate(130px, -50%);
 
 }
 
