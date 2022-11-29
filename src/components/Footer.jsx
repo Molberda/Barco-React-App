@@ -30,6 +30,7 @@ const Footer = () => {
               <div className="footer__link-hover-effect"></div>
             </li>
           </ul>
+          <span className="copyright">Designed by David Möller &copy; 2022 for Bares Colombianos SAS</span>
         </div>
       </div>
     </footer>
