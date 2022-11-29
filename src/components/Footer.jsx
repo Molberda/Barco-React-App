@@ -1,14 +1,15 @@
 import React from "react";
+import Logo from "../assets/barco__logo.png";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="row__column">
-        <a href="#landing" className="logo__link">
-          <figure className="footer__logo--wrapper">
-            <img src="" alt="" className="footer__logo" />
-          </figure>
-        </a>
+      <div className="row__column footer__row">
+        <figure className="footer__logo--wrapper">
+          <a href="/" className="logo__link">
+            <img src={Logo} alt="" className="footer__logo" />
+          </a>
+        </figure>
         <div className="footer__organizer">
           <ul className="footer__link--list">
             <li className="footer__list--item">
@@ -30,7 +31,9 @@ const Footer = () => {
               <div className="footer__link-hover-effect"></div>
             </li>
           </ul>
-          <span className="copyright">Designed by David Möller &copy; 2022 for Bares Colombianos SAS</span>
+          <span className="copyright">
+            Designed by David Möller &copy; 2022 for Bares Colombianos SAS
+          </span>
         </div>
       </div>
     </footer>
