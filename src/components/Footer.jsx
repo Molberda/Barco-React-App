@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Logo from "../assets/barco__logo.png";
 
@@ -6,7 +7,7 @@ const Footer = () => {
     <footer>
       <div className="row__column footer__row">
         <figure className="footer__logo--wrapper">
-          <span className="footer__pop-out">Top</span>
+          <span className="footer__pop-out">Top <FontAwesomeIcon icon="fa-solid fa-arrow-up" /> </span>
           <a href="#landing" className="logo__link">
             <img src={Logo} alt="" className="footer__logo" />
           </a>
