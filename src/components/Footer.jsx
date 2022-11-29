@@ -6,7 +6,8 @@ const Footer = () => {
     <footer>
       <div className="row__column footer__row">
         <figure className="footer__logo--wrapper">
-          <a href="/" className="logo__link">
+          <span className="footer__pop-out">Top</span>
+          <a href="#landing" className="logo__link">
             <img src={Logo} alt="" className="footer__logo" />
           </a>
         </figure>
