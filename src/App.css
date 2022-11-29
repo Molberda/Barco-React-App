@@ -344,7 +344,7 @@ CONTACTANOS
 }
 
 .ubicacion__row {
-padding: 120px 0;
+padding: 120px 0 0;
 }
 
 .ubicacion__container {
@@ -371,4 +371,46 @@ padding: 120px 0;
 
 .insta__link:hover {
   font-size: 34px;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+footer{
+  background-color: #7d8fff;
+  padding: 40px 0;
+  margin-top: 80px;
+}
+
+.footer__link--list{
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+.footer__list--item{
+  position: relative;
+}
+
+.footer__link-hover-effect{
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #020621;
+  border-radius: 4px;
+  transition: all 300ms ease;
+}
+
+.footer__list--item:hover .footer__link-hover-effect{
+  left: 0;
+  width: 100%;
+}
+
+.footer__link{
+  color: #020621;
 }
