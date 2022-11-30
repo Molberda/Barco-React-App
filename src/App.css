@@ -8,6 +8,10 @@
   letter-spacing: 1.5px;
 }
 
+.app{
+  position: relative;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -85,6 +89,9 @@ NAV BAR
 */
 
 nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,6 +101,7 @@ nav {
   margin: 12px auto 0;
   padding: 0 24px;
   animation: slideIn 1000ms;
+  z-index: 5;
 }
 
 @keyframes slideIn {
@@ -101,7 +109,7 @@ nav {
     transform: translateX(-4000px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(-50%);
   }
 }
 
@@ -156,7 +164,7 @@ LANDING
 */
 
 #landing {
-  height: 88vh;
+  height: 100vh;
   position: relative;
 }
 
