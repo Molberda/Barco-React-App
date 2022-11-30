@@ -5,7 +5,7 @@ import Scroll from "../ui/Scroll";
 const Landing = () => {
   return (
     <section id="landing">
-      <div className="container">
+      <div className="container landing__container">
         <div className="row">
           <div className="organizer">
             <h1 className="title">BAR.CO Pola</h1>
