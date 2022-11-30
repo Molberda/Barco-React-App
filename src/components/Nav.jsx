@@ -12,13 +12,13 @@ const Nav = () => {
         </Link>
         <ul className="nav__link--list">
           <li className="nav__list--item">
-            <a href="#acerca" className="nav__link">
+            <a href="/#acerca" className="nav__link">
               Acerca de Nosotros
             </a>
             <div className="nav__link-hover-effect"></div>
           </li>
           <li className="nav__list--item">
-            <a href="#contactanos" className="nav__link">
+            <a href="/#contactanos" className="nav__link">
               Contáctanos
             </a>
             <div className="nav__link-hover-effect"></div>
