@@ -5,7 +5,11 @@ const Menu = () => {
     <div className="landing__container container">
       <div className="row__column">
         <h1 className="title">Menu Items</h1>
-        <div className="organizer title"></div>
+        <div className="menu__organizer">
+            <div className="menu__item--wrapper">
+                
+            </div>
+        </div>
       </div>
     </div>
   );
