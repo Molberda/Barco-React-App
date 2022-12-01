@@ -1,4 +1,5 @@
 import React from "react";
+import Menuitem from "../ui/Menuitem";
 
 const Menu = () => {
   return (
@@ -6,7 +7,7 @@ const Menu = () => {
       <div className="row__column">
         <h1 className="title">Menu Items</h1>
         <div className="menu__organizer">
-            
+            <Menuitem />
         </div>
       </div>
     </div>
