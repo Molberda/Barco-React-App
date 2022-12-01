@@ -11,4 +11,10 @@ export const items = [
         url: "",
         price: 7.5
     },
+    {
+        id: 3,
+        name: "Poker",
+        url: "",
+        price: 4
+    },
 ]
