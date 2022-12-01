@@ -8,6 +8,12 @@ const Menu = () => {
         <h1 className="title">Menu Items</h1>
         <div className="menu__organizer">
             <Menuitem />
+            <Menuitem />
+            <Menuitem />
+            <Menuitem />
+            <Menuitem />
+            <Menuitem />
+            <Menuitem />
         </div>
       </div>
     </div>
