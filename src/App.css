@@ -474,3 +474,17 @@ footer{
   font-size: 12px;
   margin-top: 2px;
 }
+
+/* 
+
+MENU
+
+*/
+
+.item__name{
+  color: white;
+}
+
+.item__price{
+  color: white;
+}
