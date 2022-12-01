@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const Menu = () => {
-    return (
-        <div className='row'>
-            <h1 className='title'>Menu</h1>
-        </div>
-    );
-}
+  return (
+    <div className="landing__container container">
+      <div className="row">
+        <h1 className="title">Menu Items</h1>
+      </div>
+    </div>
+  );
+};
 
 export default Menu;
