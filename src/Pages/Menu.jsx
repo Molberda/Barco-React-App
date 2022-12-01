@@ -7,7 +7,7 @@ const Menu = () => {
         <h1 className="title">Menu Items</h1>
         <div className="menu__organizer">
             <div className="menu__item--wrapper">
-                
+                <figure className="item__img--wrapper"></figure>
             </div>
         </div>
       </div>
