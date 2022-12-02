@@ -52,7 +52,7 @@ export const items = [
         id: 8,
         name: "Antioqueño Azul",
         type: "bebida",
-        url: "",
+        url: "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186974/7702049000531.jpg?v=637813983705430000",
         price: 80
     },
     {
