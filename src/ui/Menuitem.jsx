@@ -1,6 +1,6 @@
 import React from "react";
 
-const Menuitem = () => {
+const Menuitem = ({ items }) => {
   return (
     <div className="menu__item--wrapper">
       <figure className="item__img--wrapper">
