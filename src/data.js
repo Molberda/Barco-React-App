@@ -55,4 +55,11 @@ export const items = [
         url: "",
         price: 80
     },
+    {
+        id: 9,
+        name: "Porcion Pizza",
+        type: "comida",
+        url: "",
+        price: 24
+    },
 ]
