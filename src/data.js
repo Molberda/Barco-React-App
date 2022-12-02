@@ -41,4 +41,10 @@ export const items = [
         url: "",
         price: 60
     },
+    {
+        id: 8,
+        name: "Antioqueño Azul",
+        url: "",
+        price: 80
+    },
 ]
