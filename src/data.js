@@ -35,4 +35,10 @@ export const items = [
         url: "",
         price: 4
     },
+    {
+        id: 7,
+        name: "Nectar Verde",
+        url: "",
+        price: 60
+    },
 ]
