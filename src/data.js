@@ -24,7 +24,7 @@ export const items = [
         id: 4,
         name: "Club Dorada",
         type: "bebida",
-        url: "http://cdn.shopify.com/s/files/1/2113/5145/products/CLUBCOLDORADA_1_1024x1024.jpg?v=1519233719",
+        url: "https://cdn10.totalcode.net/gastronomy/product-zoom/es/cerveza-club-colombia-dorada-330ml-bt-1.webp",
         price: 4
     },
     {
