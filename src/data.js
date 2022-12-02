@@ -36,9 +36,9 @@ export const items = [
     },
     {
         id: 6,
-        name: "Aguila Lite",
+        name: "Aguila Light",
         type: "bebida",
-        url: "",
+        url: "https://koyotebarbacoa.com/wp-content/uploads/2020/04/aguila-ligth-01.png",
         price: 4
     },
     {
