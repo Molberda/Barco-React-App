@@ -45,7 +45,7 @@ export const items = [
         id: 7,
         name: "Nectar Verde",
         type: "bebida",
-        url: "",
+        url: "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186970/7702404005041.jpg?v=637813983688800000",
         price: 60
     },
     {
