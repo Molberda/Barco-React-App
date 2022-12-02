@@ -1,15 +1,15 @@
 import React from "react";
 
-const Menuitem = ({ items }) => {
-console.log(items[0])
+const Menuitem = ({ item }) => {
+console.log(item)
 
   return (
     <div className="menu__item--wrapper">
       <figure className="item__img--wrapper">
-        <img src={items[0].url} alt="" className="item__img" />
+        <img src={item.url} alt="" className="item__img" />
       </figure>
-      <h3 className="item__name">{items[0].name}</h3>
-      <h3 className="item__price">$10.00</h3>
+      <h3 className="item__name">{item.name}</h3>
+      <h3 className="item__price">${item.price.toFixed(3)}</h3>
     </div>
   );
 };

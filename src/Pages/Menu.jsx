@@ -7,7 +7,9 @@ const Menu = ({ items }) => {
       <div className="row__column">
         <h1 className="title">Menu Items</h1>
         <div className="menu__organizer">
-          <Menuitem items={items} />
+          {items.map((item) => (
+            <Menuitem item={item} key={item.id}/>
+          ))}
         </div>
       </div>
     </div>
