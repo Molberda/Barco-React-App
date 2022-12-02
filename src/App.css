@@ -481,6 +481,11 @@ MENU
 
 */
 
+.item__img--wrapper{
+  width: 200px;
+  border-radius: 24px;
+}
+
 .item__name{
   color: white;
 }

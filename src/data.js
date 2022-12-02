@@ -3,7 +3,7 @@ export const items = [
         id: 1,
         name: "Stella Artois",
         type: "bebida",
-        url: "",
+        url: "https://koyotebarbacoa.com/wp-content/uploads/2020/04/stella-artois-01.png",
         price: 7.5
     },
     {
