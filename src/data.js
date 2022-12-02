@@ -17,4 +17,10 @@ export const items = [
         url: "",
         price: 4
     },
+    {
+        id: 4,
+        name: "Club Dorada",
+        url: "",
+        price: 4
+    },
 ]
