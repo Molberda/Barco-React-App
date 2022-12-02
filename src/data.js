@@ -10,7 +10,7 @@ export const items = [
         id: 2,
         name: "Corona",
         type: "bebida",
-        url: "",
+        url: "https://copservir.vtexassets.com/arquivos/ids/765087-800-auto?v=637950273978830000&width=800&height=auto&aspect=true",
         price: 7.5
     },
     {
