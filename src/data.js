@@ -17,7 +17,7 @@ export const items = [
         id: 3,
         name: "Poker",
         type: "bebida",
-        url: "",
+        url: "https://domicilios24siete.com/wp-content/uploads/2018/06/poker-x400.png",
         price: 4
     },
     {
