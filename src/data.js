@@ -24,7 +24,7 @@ export const items = [
         id: 4,
         name: "Club Dorada",
         type: "bebida",
-        url: "",
+        url: "http://cdn.shopify.com/s/files/1/2113/5145/products/CLUBCOLDORADA_1_1024x1024.jpg?v=1519233719",
         price: 4
     },
     {
