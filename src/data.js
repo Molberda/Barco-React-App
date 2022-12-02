@@ -31,7 +31,7 @@ export const items = [
         id: 5,
         name: "Aguila",
         type: "bebida",
-        url: "",
+        url: "https://s.cornershopapp.com/product-images/1080802.jpg?versionId=ofJWRoEtSoBDaPasaBuEmAAAArcmtO0e",
         price: 4
     },
     {
