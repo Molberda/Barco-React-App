@@ -62,4 +62,11 @@ export const items = [
         url: "https://media.istockphoto.com/id/496546118/photo/slice-of-fresh-italian-classic-original-pepperoni-pizza-isolated.jpg?s=612x612&w=0&k=20&c=7aYapAwoe4fO5jRiNMIFiflIztcBAA8s-GLqAmBiSgA=",
         price: 24
     },
+    {
+        id: 10,
+        name: "Porcion Empanadas",
+        type: "comida",
+        url: "https://img.freepik.com/fotos-premium/empanadillas-calabaza-aislado-sobre-fondo-blanco_123827-19016.jpg?w=2000",
+        price: 8
+    },
 ]

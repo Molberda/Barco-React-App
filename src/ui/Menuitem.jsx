@@ -5,7 +5,7 @@ console.log(item)
 
   return (
     <div className="menu__item--wrapper">
-      <figure className="item__img--wrapper">
+      <figure className="item__img--wrapper" onClick={() => alert("¡Esta funcion no esta incluida aun!")}>
         <img src={item.url} alt="" className="item__img" />
       </figure>
       <h3 className="item__name">{item.name}</h3>

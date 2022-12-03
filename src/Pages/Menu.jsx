@@ -5,7 +5,7 @@ const Menu = ({ items }) => {
   return (
     <div className="landing__container container">
       <div className="row__column">
-        <h1 className="title">Menu Items</h1>
+        <h1 className="title">Menú</h1>
         <div className="menu__organizer">
           {items.map((item) => (
             <Menuitem item={item} key={item.id}/>
