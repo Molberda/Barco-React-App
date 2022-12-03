@@ -73,7 +73,7 @@ export const items = [
         id: 11,
         name: "Porcion Deditos de Queso",
         type: "comida",
-        url: "",
+        url: "http://mccain.com.co/para-tu-casa/wp-content/uploads/2018/01/dedos-de-queso.jpg",
         price: 8.5
     },
 ]
