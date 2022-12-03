@@ -71,7 +71,7 @@ export const items = [
     },
     {
         id: 11,
-        name: "Porcion Deditos de Queso",
+        name: "Deditos de Queso",
         type: "comida",
         url: "http://mccain.com.co/para-tu-casa/wp-content/uploads/2018/01/dedos-de-queso.jpg",
         price: 8.5
@@ -81,6 +81,13 @@ export const items = [
         name: "Coca-Cola",
         type: "bebida",
         url: "https://colsubsidio.vteximg.com.br/arquivos/ids/167163-1200-1200/77013378.jpg?v=637318155698600000",
-        price: 8.5
+        price: 3.5
+    },
+    {
+        id: 13,
+        name: "Agua Manantial",
+        type: "bebida",
+        url: "",
+        price: 2.5
     },
 ]
