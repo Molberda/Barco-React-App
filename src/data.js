@@ -69,4 +69,11 @@ export const items = [
         url: "https://img.freepik.com/fotos-premium/empanadillas-calabaza-aislado-sobre-fondo-blanco_123827-19016.jpg?w=2000",
         price: 8
     },
+    {
+        id: 11,
+        name: "Porcion Deditos de Queso",
+        type: "comida",
+        url: "",
+        price: 8.5
+    },
 ]
