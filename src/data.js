@@ -97,4 +97,11 @@ export const items = [
         url: "https://cdn.shopify.com/s/files/1/1085/1128/products/Vapes-Bars-Ghost-Sour-Apple-800Puffs-2_Nicotine_2048x2048_b8889dce-0c77-4cee-a63a-f26c199d87b8_600x.jpg?v=1655975424",
         price: 50
     },
+    {
+        id: 15,
+        name: "Colombiana",
+        type: "bebida",
+        url: "https://copservir.vtexassets.com/arquivos/ids/765002/GASEOSA-COLOMBIANA_F.png?v=637950273512800000",
+        price: 3.5
+    },
 ]
