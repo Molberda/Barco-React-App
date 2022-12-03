@@ -87,7 +87,7 @@ export const items = [
         id: 13,
         name: "Agua Manantial",
         type: "bebida",
-        url: "",
+        url: "https://www.farmalisto.com.co/128349/agua-manantial-frasco-con-600-ml.jpg",
         price: 2.5
     },
 ]
