@@ -481,6 +481,11 @@ MENU
 
 */
 
+.filter--group{
+  width: 100%;
+  padding-left: 20px;
+}
+
 #filter{
   height: 32px;
   width: 160px;
