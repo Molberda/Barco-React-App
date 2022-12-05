@@ -487,12 +487,18 @@ MENU
 }
 
 #filter{
-  height: 32px;
+  height: 26px;
   width: 16%;
   right: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
+}
+
+option{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .menu__organizer{
