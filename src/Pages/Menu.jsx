@@ -2,6 +2,10 @@ import React from "react";
 import Menuitem from "../ui/Menuitem";
 
 const Menu = ({ items }) => {
+  function filterItems(filter){
+    
+  }
+  
   return (
     <div className="landing__container container">
       <div className="row__column">
