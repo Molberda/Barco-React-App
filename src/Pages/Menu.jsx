@@ -15,6 +15,13 @@ const Menu = ({ items: initialItems }) => {
         items.slice().sort((a, b) => (a.price) - (b.price))
       )
     }
+    if (filter === "BEBIDAS"){
+      if(items.type === "bebida"){
+        setItems(
+          items
+        )
+      }
+    }
   }
   
   return (
