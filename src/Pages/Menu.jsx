@@ -3,7 +3,9 @@ import Menuitem from "../ui/Menuitem";
 
 const Menu = ({ items }) => {
   function filterItems(filter){
-    
+    if (filter === "HIGH_TO_LOW"){
+
+    }
   }
   
   return (
@@ -11,7 +13,7 @@ const Menu = ({ items }) => {
       <div className="row__column">
         <h1 className="title">Menú</h1>
         <div className="filter--group">
-          <select id="filter" defaultValue="DEFAULT">
+          <select id="filter" defaultValue="DEFAULT" onChange={(event) => filterItems(event.target.value)}>
             <option value="DEFAULT" disabled>Filtrar</option>
             <option value="HIGH_TO_LOW">Precio, Mayor a Menor</option>
             <option value="LOW_TO_HIGH">Precio, Menor a Mayor</option>
