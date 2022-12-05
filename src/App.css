@@ -481,6 +481,12 @@ MENU
 
 */
 
+#filter{
+  height: 32px;
+  width: 160px;
+  right: 0;
+}
+
 .menu__organizer{
   margin-top: 32px;
   width: 100%;
