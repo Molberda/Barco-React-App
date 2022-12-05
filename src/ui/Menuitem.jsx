@@ -1,7 +1,6 @@
 import React from "react";
 
 const Menuitem = ({ item }) => {
-console.log(item)
 
   return (
     <div className="menu__item--wrapper">

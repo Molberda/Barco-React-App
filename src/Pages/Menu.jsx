@@ -1,10 +1,15 @@
 import React from "react";
+import { useState } from "react";
 import Menuitem from "../ui/Menuitem";
 
-const Menu = ({ items }) => {
+const Menu = ({ items: initialItems }) => {
+  const [items, setItems] = useState(initialItems);
+  console.log(initialItems)
   function filterItems(filter){
     if (filter === "HIGH_TO_LOW"){
-
+      setItems(
+        items.slice().sort((a, b) => (b.price) - (a.price))
+      )
     }
   }
   
