@@ -7,7 +7,8 @@ const Menu = ({ items }) => {
       <div className="row__column">
         <h1 className="title">Menú</h1>
         <div className="filter--group">
-          <select id="filter">
+          <select id="filter" defaultValue="DEFAULT">
+            <option value="DEFAULT" disabled>Filtrar</option>
             <option value="HIGH_TO_LOW">Precio, Mayor a Menor</option>
             <option value="LOW_TO_HIGH">Precio, Menor a Mayor</option>
           </select>
