@@ -12,6 +12,7 @@ const Menu = ({ items }) => {
             <option value="HIGH_TO_LOW">Precio, Mayor a Menor</option>
             <option value="LOW_TO_HIGH">Precio, Menor a Mayor</option>
             <option value="BEBIDAS">Bebidas</option>
+            <option value="COMIDAS">Comidas</option>
           </select>
         </div>
         <div className="menu__organizer">
