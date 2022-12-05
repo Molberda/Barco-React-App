@@ -490,6 +490,9 @@ MENU
   height: 32px;
   width: 16%;
   right: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .menu__organizer{
