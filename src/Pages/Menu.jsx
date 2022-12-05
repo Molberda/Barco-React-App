@@ -4,11 +4,15 @@ import Menuitem from "../ui/Menuitem";
 
 const Menu = ({ items: initialItems }) => {
   const [items, setItems] = useState(initialItems);
-  console.log(initialItems)
   function filterItems(filter){
     if (filter === "HIGH_TO_LOW"){
       setItems(
         items.slice().sort((a, b) => (b.price) - (a.price))
+      )
+    }
+    if (filter === "LOW_TO_HIGH"){
+      setItems(
+        items.slice().sort((a, b) => (a.price) - (b.price))
       )
     }
   }
