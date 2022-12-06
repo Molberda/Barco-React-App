@@ -16,11 +16,9 @@ const Menu = ({ items: initialItems }) => {
       )
     }
     if (filter === "BEBIDAS"){
-      if(items.type === "bebida"){
-        setItems(
-          items.slice().find((item) => item.type == "bebida")
-          )
-      }
+      setItems(
+        items.filter((item) => item.type === 'bebida')
+      )
     }
   }
   

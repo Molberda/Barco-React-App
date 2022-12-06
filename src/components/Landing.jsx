@@ -13,20 +13,20 @@ const Landing = () => {
               EL MEJOR LUGAR PARA IR A PASAR UN BUEN RATO CON LA GENTE QUE MÁS
               QUIERES.
             </h2>
-            <div class="typing__wrapper">
-              <h2 class="landing__text static__text">TENEMOS</h2>
-              <ul class="dynamic__texts">
+            <div className="typing__wrapper">
+              <h2 className="landing__text static__text">TENEMOS</h2>
+              <ul className="dynamic__texts">
                 <li>
-                  <span class="typing__text">LA MEJOR POLA</span>
+                  <span className="typing__text">LA MEJOR POLA</span>
                 </li>
                 <li>
-                  <span class="typing__text">LA MEJOR MÚSICA</span>
+                  <span className="typing__text">LA MEJOR MÚSICA</span>
                 </li>
                 <li>
-                  <span class="typing__text">LA MEJOR COMPAÑÍA</span>
+                  <span className="typing__text">LA MEJOR COMPAÑÍA</span>
                 </li>
                 <li>
-                  <span class="typing__text">EL MEJOR PRECIO</span>
+                  <span className="typing__text">EL MEJOR PRECIO</span>
                 </li>
               </ul>
             </div>

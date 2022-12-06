@@ -4,11 +4,11 @@ import Map from "../ui/Map";
 const Contactanos = () => {
   return (
     <section id="contactanos">
-      <div class="row ubicacion__row">
-        <div class="container ubicacion__container">
-          <div class="contactanos__organizer">
-            <h1 class="contactanos__title title">Contáctanos</h1>
-            <p class="contactanos__text text">
+      <div className="row ubicacion__row">
+        <div className="container ubicacion__container">
+          <div className="contactanos__organizer">
+            <h1 className="contactanos__title title">Contáctanos</h1>
+            <p className="contactanos__text text">
               Estamos ubicados en la calle 99 # 9a-29 <br /> Abiertos de Lunes a
               Sabado 1:00pm-11:00pm <br />
               Síguenos en Instagram{" "}
@@ -16,7 +16,7 @@ const Contactanos = () => {
                 href="https://www.instagram.com/barco_pola/"
                 target="_blank"
                 rel="noreferrer"
-                class="text insta__link"
+                className="text insta__link"
               >
                 @Barco_Pola
               </a>{" "}
