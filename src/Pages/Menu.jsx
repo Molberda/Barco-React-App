@@ -10,6 +10,7 @@ const Menu = ({ items: initialItems }) => {
   const drinks = initialItems.filter((item) => (item.type === 'bebida')).sort((a, b) => (b.price) - (a.price))
   const alchohol = initialItems.filter((item) => (item.type === 'bebida alchoholica')).sort((a, b) => (b.price) - (a.price))
   const foods = initialItems.filter((item) => (item.type === 'comida')).sort((a, b) => (b.price) - (a.price))
+  const smoke = initialItems.filter((item) => (item.type === 'fumable')).sort((a, b) => (b.price) - (a.price))
 
   function filterItems(filter){
     if (filter === "HIGH_TO_LOW"){setItems(priceHigh)}
@@ -21,6 +22,8 @@ const Menu = ({ items: initialItems }) => {
     if (filter === "ALCHOHOL"){setItems(alchohol)}
 
     if (filter === "COMIDAS"){setItems(foods)}
+
+    if (filter === "FUMABLE"){setItems(smoke)}
   }
   
   return (
@@ -35,6 +38,7 @@ const Menu = ({ items: initialItems }) => {
             <option value="BEBIDAS">Bebidas</option>
             <option value="ALCHOHOL">Bebidas Alchoholicas</option>
             <option value="COMIDAS">Comidas</option>
+            <option value="FUMABLE">Para Fumar</option>
           </select>
         </div>
         <div className="menu__organizer">

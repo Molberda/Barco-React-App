@@ -93,7 +93,7 @@ export const items = [
     {
         id: 14,
         name: "Vapes",
-        type: "fumables",
+        type: "fumable",
         url: "https://cdn.shopify.com/s/files/1/1085/1128/products/Vapes-Bars-Ghost-Sour-Apple-800Puffs-2_Nicotine_2048x2048_b8889dce-0c77-4cee-a63a-f26c199d87b8_600x.jpg?v=1655975424",
         price: 50
     },
