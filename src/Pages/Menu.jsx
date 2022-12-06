@@ -42,6 +42,7 @@ const Menu = ({ items: initialItems }) => {
           </select>
         </div>
         <div className="menu__organizer">
+          
           {items.map((item) => (
             <Menuitem item={item} key={item.id}/>
           ))}
