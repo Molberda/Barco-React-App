@@ -3,23 +3,18 @@ import { useState } from "react";
 import Menuitem from "../ui/Menuitem";
 
 const Menu = ({ items: initialItems }) => {
+
   const [items, setItems] = useState(initialItems);
+  const priceHigh = initialItems.slice().sort((a, b) => (b.price) - (a.price))
+  const priceLow = initialItems.slice().sort((a, b) => (a.price) - (b.price))
+  const drinks = initialItems.filter((item) => (item.type === 'bebida'))
+
   function filterItems(filter){
-    if (filter === "HIGH_TO_LOW"){
-      setItems(
-        items.slice().sort((a, b) => (b.price) - (a.price))
-      )
-    }
-    if (filter === "LOW_TO_HIGH"){
-      setItems(
-        items.slice().sort((a, b) => (a.price) - (b.price))
-      )
-    }
-    if (filter === "BEBIDAS"){
-      setItems(
-        items.filter((item) => item.type === 'bebida')
-      )
-    }
+    if (filter === "HIGH_TO_LOW"){setItems(priceHigh)}
+    
+    if (filter === "LOW_TO_HIGH"){setItems(priceLow)}
+
+    if (filter === "BEBIDAS"){setItems(drinks)}
   }
   
   return (
