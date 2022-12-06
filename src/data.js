@@ -43,14 +43,14 @@ export const items = [
     },
     {
         id: 7,
-        name: "Nectar Verde",
+        name: "Nectar Verde 750ml",
         type: "bebida alchoholica",
         url: "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186970/7702404005041.jpg?v=637813983688800000",
         price: 60
     },
     {
         id: 8,
-        name: "Antioqueño Azul",
+        name: "Antioqueño Azul 750ml",
         type: "bebida alchoholica",
         url: "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186974/7702049000531.jpg?v=637813983705430000",
         price: 80
