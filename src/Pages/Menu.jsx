@@ -8,13 +8,16 @@ const Menu = ({ items: initialItems }) => {
   const priceHigh = initialItems.slice().sort((a, b) => (b.price) - (a.price))
   const priceLow = initialItems.slice().sort((a, b) => (a.price) - (b.price))
   const drinks = initialItems.filter((item) => (item.type === 'bebida'))
+  const foods = initialItems.filter((item) => (item.type === 'comida'))
 
   function filterItems(filter){
     if (filter === "HIGH_TO_LOW"){setItems(priceHigh)}
-    
+
     if (filter === "LOW_TO_HIGH"){setItems(priceLow)}
 
     if (filter === "BEBIDAS"){setItems(drinks)}
+
+    if (filter === "COMIDAS"){setItems(foods)}
   }
   
   return (
