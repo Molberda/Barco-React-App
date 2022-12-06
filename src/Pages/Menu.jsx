@@ -7,8 +7,9 @@ const Menu = ({ items: initialItems }) => {
   const [items, setItems] = useState(initialItems);
   const priceHigh = initialItems.slice().sort((a, b) => (b.price) - (a.price))
   const priceLow = initialItems.slice().sort((a, b) => (a.price) - (b.price))
-  const drinks = initialItems.filter((item) => (item.type === 'bebida'))
-  const foods = initialItems.filter((item) => (item.type === 'comida'))
+  const drinks = initialItems.filter((item) => (item.type === 'bebida')).sort((a, b) => (b.price) - (a.price))
+  const alchohol = initialItems.filter((item) => (item.type === 'bebida alchoholica')).sort((a, b) => (b.price) - (a.price))
+  const foods = initialItems.filter((item) => (item.type === 'comida')).sort((a, b) => (b.price) - (a.price))
 
   function filterItems(filter){
     if (filter === "HIGH_TO_LOW"){setItems(priceHigh)}
@@ -16,6 +17,8 @@ const Menu = ({ items: initialItems }) => {
     if (filter === "LOW_TO_HIGH"){setItems(priceLow)}
 
     if (filter === "BEBIDAS"){setItems(drinks)}
+
+    if (filter === "ALCHOHOL"){setItems(alchohol)}
 
     if (filter === "COMIDAS"){setItems(foods)}
   }
@@ -30,6 +33,7 @@ const Menu = ({ items: initialItems }) => {
             <option value="HIGH_TO_LOW">Precio, Mayor a Menor</option>
             <option value="LOW_TO_HIGH">Precio, Menor a Mayor</option>
             <option value="BEBIDAS">Bebidas</option>
+            <option value="ALCHOHOL">Bebidas Alchoholicas</option>
             <option value="COMIDAS">Comidas</option>
           </select>
         </div>
