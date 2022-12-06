@@ -314,7 +314,6 @@ ACERCA
 #acerca {
   height: 70vh;
   position: relative;
-  /* padding-top: 100px; */
 }
 
 .acerca__row {
@@ -354,10 +353,6 @@ CONTACTANOS
   height: 70vh;
   padding-top: 100px;
   margin-bottom: 100px;
-}
-
-.ubicacion__row {
-/* padding: 120px 0 0; */
 }
 
 .ubicacion__container {
