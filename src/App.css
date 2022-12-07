@@ -536,3 +536,25 @@ option{
 .item__price{
   color: white;
 }
+
+/* 
+
+SKELETON
+
+*/
+
+.menu__item-skeleton-wrapper{
+
+}
+
+.item__img-skeleton-wrapper{
+
+}
+
+.item__name--skeleton{
+
+}
+
+.item__price--skeleton{
+  
+}
