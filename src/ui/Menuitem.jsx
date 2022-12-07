@@ -10,7 +10,7 @@ const Menuitem = ({ item }) => {
     image.onload = () => {
       setTimeout(() => {
         setImg(image);
-      }, 800);
+      }, 10000);
     };
   });
 
