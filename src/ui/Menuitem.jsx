@@ -11,7 +11,7 @@ const Menuitem = ({ item }) => {
       setTimeout(() => {
         setImg(image);
       }, 800);
-    }
+    };
   });
 
   return (
@@ -28,7 +28,11 @@ const Menuitem = ({ item }) => {
           <h3 className="item__price">${item.price.toFixed(3)}</h3>
         </>
       ) : (
-        <></>
+        <>
+            <div className="skeleton item__img-skeleton-wrapper"></div>
+            <div className="skeleton item__name--skeleton"></div>
+            <div className="skeleton item__price--skeleton"></div>
+        </>
       )}
     </div>
   );
