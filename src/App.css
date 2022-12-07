@@ -32,7 +32,7 @@ body {
 }
 
 .row__column {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
@@ -391,10 +391,14 @@ FOOTER
 footer{
   background-color: #7d8fff;
   padding: 20px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .footer__row{
-  gap:12px
+  gap:12px;
+  min-width: none;
 }
 
 .footer__logo--wrapper{
@@ -476,6 +480,10 @@ footer{
 MENU
 
 */
+
+#menu{
+  min-height: 82vh;
+}
 
 .filter--group{
   width: 100%;
