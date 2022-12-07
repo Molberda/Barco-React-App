@@ -18,20 +18,24 @@ const Footer = () => {
         <div className="footer__organizer">
           <ul className="footer__link--list">
             <li className="footer__list--item">
-              <a href="#acerca" className="footer__link">
+              <Link to="/#contactanos" className="footer__link">
+                {/* <a href="#acerca" className="footer__link"> */}
                 Acerca de Nosotros
-              </a>
+                {/* </a> */}
+              </Link>
               <div className="footer__link-hover-effect"></div>
             </li>
             <li className="footer__list--item">
-              <a href="#contactanos" className="footer__link">
+              <Link to="/#contactanos" className="footer__link">
+                {/* <a href="/#contactanos" className="footer__link"> */}
                 Contáctanos
-              </a>
+                {/* </a> */}
+              </Link>
               <div className="footer__link-hover-effect"></div>
             </li>
             <li className="footer__list--item">
               <Link to="/menu" className="footer__link">
-                  Menú
+                Menú
               </Link>
               <div className="footer__link-hover-effect"></div>
             </li>
