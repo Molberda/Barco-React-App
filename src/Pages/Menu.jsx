@@ -1,8 +1,14 @@
 import React from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import Menuitem from "../ui/Menuitem";
 
 const Menu = ({ items: initialItems }) => {
+
+  useEffect(() => {
+
+    window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+  }, []);
 
   const [items, setItems] = useState(initialItems);
   const priceHigh = initialItems.slice().sort((a, b) => (b.price) - (a.price))

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../assets/barco__logo.png";
 
 const Footer = () => {
@@ -7,7 +8,9 @@ const Footer = () => {
     <footer>
       <div className="row__column footer__row">
         <figure className="footer__logo--wrapper">
-          <span className="footer__pop-out">Top <FontAwesomeIcon icon="fa-solid fa-arrow-up" /> </span>
+          <span className="footer__pop-out">
+            Top <FontAwesomeIcon icon="fa-solid fa-arrow-up" />{" "}
+          </span>
           <a href="#landing" className="logo__link">
             <img src={Logo} alt="" className="footer__logo" />
           </a>
@@ -27,9 +30,9 @@ const Footer = () => {
               <div className="footer__link-hover-effect"></div>
             </li>
             <li className="footer__list--item">
-              <a href="/menu" className="footer__link">
-                Menú
-              </a>
+              <Link to="/menu" className="footer__link">
+                  Menú
+              </Link>
               <div className="footer__link-hover-effect"></div>
             </li>
           </ul>
