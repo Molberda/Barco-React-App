@@ -118,4 +118,11 @@ export const items = [
         url: "https://copservir.vtexassets.com/arquivos/ids/762990/GASEOSA-MANZANA-POSTOBON_F.png?v=637950263917200000",
         price: 3.5
     },
+    {
+        id: 18,
+        name: "Sprite",
+        type: "bebida",
+        url: "https://cdn.shopify.com/s/files/1/0492/2458/1274/products/supermercados_la_vaquita_supervaquita_gaseosa_sprite_400ml_bebidas_liquidas_700x700.jpg?v=1620489364",
+        price: 3.5
+    },
 ]
