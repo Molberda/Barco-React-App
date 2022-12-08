@@ -6,7 +6,7 @@ import Logo from "../assets/barco__logo.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="row__column footer__row">
+      <div className="footer__row">
         <figure className="footer__logo--wrapper">
           <span className="footer__pop-out">
             Top <FontAwesomeIcon icon="fa-solid fa-arrow-up" />{" "}
