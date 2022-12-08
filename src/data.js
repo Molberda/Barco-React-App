@@ -104,4 +104,11 @@ export const items = [
         url: "https://copservir.vtexassets.com/arquivos/ids/765002/GASEOSA-COLOMBIANA_F.png?v=637950273512800000",
         price: 3.5
     },
+    {
+        id: 16,
+        name: "Agua con Gas Manantial",
+        type: "bebida",
+        url: "https://licoreralasucursal.com/wp-content/uploads/2020/02/agua-manantial.jpg",
+        price: 2.5
+    },
 ]
