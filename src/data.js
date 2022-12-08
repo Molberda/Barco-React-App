@@ -111,4 +111,11 @@ export const items = [
         url: "https://licoreralasucursal.com/wp-content/uploads/2020/02/agua-manantial.jpg",
         price: 2.5
     },
+    {
+        id: 17,
+        name: "Manzana",
+        type: "bebida",
+        url: "https://copservir.vtexassets.com/arquivos/ids/762990/GASEOSA-MANZANA-POSTOBON_F.png?v=637950263917200000",
+        price: 3.5
+    },
 ]
