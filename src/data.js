@@ -57,7 +57,7 @@ export const items = [
     },
     {
         id: 9,
-        name: "Porcion Pizza",
+        name: "Pizza Personal",
         type: "comida",
         url: "https://media.istockphoto.com/id/496546118/photo/slice-of-fresh-italian-classic-original-pepperoni-pizza-isolated.jpg?s=612x612&w=0&k=20&c=7aYapAwoe4fO5jRiNMIFiflIztcBAA8s-GLqAmBiSgA=",
         price: 24
