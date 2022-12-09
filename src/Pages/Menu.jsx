@@ -84,7 +84,7 @@ const Menu = ({ items: initialItems }) => {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer name3="Home" link3="/" />
     </div>
   );
 };
