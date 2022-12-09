@@ -18,7 +18,7 @@ const Footer = ({ link1, link2, link3, name1, name2, name3 }) => {
         <div className="footer__organizer">
           <ul className="footer__link--list">
             <li className="footer__list--item">
-                <a href="https://www.instagram.com/barco_pola/" target="_blank" className="footer__link">
+                <a href="https://www.instagram.com/barco_pola/" target="_blank" rel="noreferrer" className="footer__link">
                 Instagram
                 </a>
               <div className="footer__link-hover-effect"></div>

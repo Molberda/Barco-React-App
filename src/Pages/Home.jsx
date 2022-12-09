@@ -13,11 +13,11 @@ const Home = () => {
 
   return (
     <div>
-      <Nav link1="#acerca" name1="Acerca de Nosotros" link2="#contactanos" name2="Contáctanos" link3="/menu" name3="Menú" />
+      <Nav name1="Acerca de Nosotros" link1="#acerca" name2="Contáctanos" link2="#contactanos" name3="Menú" link3="/menu"/>
       <Landing />
       <Acerca />
       <Contactanos />
-      <Footer/>
+      <Footer name1="Acerca de Nosotros" link1="#acerca"  name2="Contáctanos" link2="#contactanos" name3="Menú" link3="/menu" />
     </div>
   );
 };
