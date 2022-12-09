@@ -54,7 +54,7 @@ const Menu = ({ items: initialItems }) => {
 
   return (
     <div>
-      <Nav link1="" name1="" link2="" name2="" link3="/" name3="Home"/>
+      <Nav link3="/" name3="Home"/>
       <section id="menu">
         <div className="landing__container container">
           <div className="row__column">
