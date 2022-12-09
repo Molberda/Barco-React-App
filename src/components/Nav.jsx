@@ -12,20 +12,20 @@ const Nav = ({ link1, link2, link3, name1, name2, name3}) => {
         </Link>
         <ul className="nav__link--list">
           <li className="nav__list--item">
-            <a href="/#acerca" className="nav__link">
-              Acerca de Nosotros
+            <a href={link1} className="nav__link">
+              {name1}
             </a>
             <div className="nav__link-hover-effect"></div>
           </li>
           <li className="nav__list--item">
-            <a href="/#contactanos" className="nav__link">
-              Contáctanos
+            <a href={link2} className="nav__link">
+              {name2}
             </a>
             <div className="nav__link-hover-effect"></div>
           </li>
           <li className="nav__list--item nav__link-list-primary click">
-            <Link to="/menu" className="nav__link nav__link--primary">
-              Menú
+            <Link to={link3} className="nav__link nav__link--primary">
+              {name3}
             </Link>
           </li>
         </ul>
