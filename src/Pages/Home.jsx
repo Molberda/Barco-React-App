@@ -7,7 +7,7 @@ import Nav from "../components/Nav";
 const Home = () => {
   return (
     <div>
-      <Nav link1="#acerca" name1="Acerca de Nosotros" link2="#contactanos" name2="Contáctanos" />
+      <Nav link1="#acerca" name1="Acerca de Nosotros" link2="#contactanos" name2="Contáctanos" link3="/menu" name3="Menú" />
       <Landing />
       <Acerca />
       <Contactanos />
