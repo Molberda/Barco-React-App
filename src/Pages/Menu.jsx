@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import Nav from "../components/Nav";
 import Menuitem from "../ui/Menuitem";
 
 const Menu = ({ items: initialItems }) => {
@@ -51,35 +52,38 @@ const Menu = ({ items: initialItems }) => {
   }
 
   return (
-    <section id="menu">
-      <div className="landing__container container">
-        <div className="row__column">
-          <h1 className="title">Menú</h1>
-          <div className="filter--group">
-            <select
-              id="filter"
-              defaultValue="DEFAULT"
-              onChange={(event) => filterItems(event.target.value)}
-            >
-              <option value="DEFAULT" disabled>
-                Filtrar
-              </option>
-              <option value="HIGH_TO_LOW">Precio, Mayor a Menor</option>
-              <option value="LOW_TO_HIGH">Precio, Menor a Mayor</option>
-              <option value="BEBIDAS">Bebidas</option>
-              <option value="ALCHOHOL">Bebidas Alchoholicas</option>
-              <option value="COMIDAS">Comidas</option>
-              <option value="FUMABLE">Para Fumar</option>
-            </select>
-          </div>
-          <div className="menu__organizer">
-            {items.map((item) => (
-              <Menuitem item={item} key={item.id} />
-            ))}
+    <div>
+      <Nav/>
+      <section id="menu">
+        <div className="landing__container container">
+          <div className="row__column">
+            <h1 className="title">Menú</h1>
+            <div className="filter--group">
+              <select
+                id="filter"
+                defaultValue="DEFAULT"
+                onChange={(event) => filterItems(event.target.value)}
+              >
+                <option value="DEFAULT" disabled>
+                  Filtrar
+                </option>
+                <option value="HIGH_TO_LOW">Precio, Mayor a Menor</option>
+                <option value="LOW_TO_HIGH">Precio, Menor a Mayor</option>
+                <option value="BEBIDAS">Bebidas</option>
+                <option value="ALCHOHOL">Bebidas Alchoholicas</option>
+                <option value="COMIDAS">Comidas</option>
+                <option value="FUMABLE">Para Fumar</option>
+              </select>
+            </div>
+            <div className="menu__organizer">
+              {items.map((item) => (
+                <Menuitem item={item} key={item.id} />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
