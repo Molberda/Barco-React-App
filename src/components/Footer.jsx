@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/barco__logo.png";
 
-const Footer = () => {
+const Footer = ({ link1, link2, link3, name1, name2, name3 }) => {
   return (
     <footer>
       <div className="footer__row">

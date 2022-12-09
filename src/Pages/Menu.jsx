@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Menuitem from "../ui/Menuitem";
 
@@ -83,6 +84,7 @@ const Menu = ({ items: initialItems }) => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };
