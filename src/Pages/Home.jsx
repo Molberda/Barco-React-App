@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Acerca from "../components/Acerca";
 import Contactanos from "../components/Contactanos";
+import Footer from "../components/Footer";
 import Landing from "../components/Landing";
 import Nav from "../components/Nav";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Landing />
       <Acerca />
       <Contactanos />
+      <Footer/>
     </div>
   );
 };
