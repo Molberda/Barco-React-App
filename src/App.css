@@ -584,4 +584,7 @@ SKELETON
   .barco__logo--wrapper{
     width: 200px;
   }
+  .nav__link--list{
+    display: none;
+  }
 }
