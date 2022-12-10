@@ -614,4 +614,11 @@ SKELETON
   .scroll__icon {
     display: none;
   }
+  .acerca__row{
+
+  }
+
+  #contactanos{
+    display:none
+  }
 }
