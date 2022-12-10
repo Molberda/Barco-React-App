@@ -607,4 +607,8 @@ SKELETON
   .static__text{
     margin-top: 9px;
   }
+  .landing__img--wrapper{
+    margin: 50px 0;
+    width: 350px;
+  }
 }
