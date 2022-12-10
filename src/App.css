@@ -611,4 +611,7 @@ SKELETON
     margin: 50px 0;
     width: 350px;
   }
+  .scroll__icon {
+    display: none;
+  }
 }
