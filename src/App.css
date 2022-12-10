@@ -579,3 +579,9 @@ SKELETON
   height: 20px;
   border-radius: 6px;
 }
+
+@media (max-width: 768px){
+  .barco__logo--wrapper{
+    width: 200px;
+  }
+}
