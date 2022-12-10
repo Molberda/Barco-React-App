@@ -601,6 +601,9 @@ SKELETON
     text-align: center;
     max-width: none;
   }
+  .typing__wrapper{
+    justify-content: center;
+  }
   .static__text{
     margin-top: 9px;
   }
