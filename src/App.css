@@ -587,4 +587,10 @@ SKELETON
   .nav__link--list{
     display: none;
   }
+  .title{
+    font-size: 100px;
+  }
+  .text{
+    font-size: 35px;
+  }
 }
