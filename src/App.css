@@ -615,10 +615,16 @@ SKELETON
     display: none;
   }
   .acerca__row{
-
+  }
+  .acerca__img--wrapper{
+    width: 350px;
   }
 
   #contactanos{
     display:none
+  }
+
+  footer{
+    display: none;
   }
 }
