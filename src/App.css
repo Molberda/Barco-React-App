@@ -581,6 +581,11 @@ SKELETON
 }
 
 @media (max-width: 768px){
+
+  .row{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .barco__logo--wrapper{
     width: 200px;
   }
@@ -589,9 +594,12 @@ SKELETON
   }
   .title{
     font-size: 100px;
+    text-align: center;
   }
   .text, .landing__text, .dynamic__texts{
     font-size: 35px;
+    text-align: center;
+    max-width: none;
   }
   .static__text{
     margin-top: 9px;
