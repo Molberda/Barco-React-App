@@ -590,7 +590,10 @@ SKELETON
   .title{
     font-size: 100px;
   }
-  .text{
+  .text, .landing__text, .dynamic__texts{
     font-size: 35px;
+  }
+  .static__text{
+    margin-top: 9px;
   }
 }
