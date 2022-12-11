@@ -581,13 +581,17 @@ SKELETON
 }
 
 @media (max-width: 1020px){
-  
+
 }
 @media (max-width: 768px){
 
   .row{
     flex-wrap: wrap;
     justify-content: center;
+    max-height: none;
+  }
+  .organizer{
+    max-width: 500px;
   }
   .barco__logo--wrapper{
     width: 200px;
@@ -621,7 +625,7 @@ SKELETON
     height: 100vh;
   }
   .acerca__row{
-    height: 100%;
+   flex-direction: column-reverse;
   }
   .acerca__title{
     font-size: 90px;
