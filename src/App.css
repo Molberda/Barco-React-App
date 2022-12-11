@@ -671,4 +671,7 @@ SKELETON
   .footer__logo--wrapper:hover .footer__pop-out{
     transform: translate(100px, -50%);
   }
+  .menu__item--wrapper{
+    width: 30%;
+  }
 }
