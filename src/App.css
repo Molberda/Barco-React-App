@@ -666,4 +666,7 @@ SKELETON
   .footer__link{
     font-size: 20px;
   }
+  .footer__logo--wrapper:hover .footer__pop-out{
+    transform: translate(100px, -50%);
+  }
 }
