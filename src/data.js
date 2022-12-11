@@ -73,7 +73,7 @@ export const items = [
         id: 11,
         name: "Deditos de Queso",
         type: "comida",
-        url: "http://mccain.com.co/para-tu-casa/wp-content/uploads/2018/01/dedos-de-queso.jpg",
+        url: "https://apradagourmet.com/image/cache/catalog/PRODUCTOS/TEQUE%C3%91OS%20/TRADICIONAL%20DE%20QUESO/TRADICIONAL%20DE%20QUESO-1000x1000.png",
         price: 8.5
     },
     {
