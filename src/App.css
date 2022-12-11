@@ -580,6 +580,9 @@ SKELETON
   border-radius: 6px;
 }
 
+@media (max-width: 1020px){
+  
+}
 @media (max-width: 768px){
 
   .row{
@@ -614,10 +617,21 @@ SKELETON
   .scroll__icon {
     display: none;
   }
+  #acerca{
+    height: 100vh;
+  }
   .acerca__row{
+    height: 100%;
+  }
+  .acerca__title{
+    font-size: 90px;
   }
   .acerca__img--wrapper{
     width: 350px;
+  }
+  .acerca__text{
+    font-size: 30px;
+    margin: 0;
   }
 
   #contactanos{
