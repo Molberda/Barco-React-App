@@ -663,4 +663,7 @@ SKELETON
   .footer__logo--wrapper{
   width: 180px;
   }
+  .footer__link{
+    font-size: 20px;
+  }
 }
