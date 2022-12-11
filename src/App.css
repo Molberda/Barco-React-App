@@ -605,6 +605,9 @@ SKELETON
     font-size: 100px;
     text-align: center;
   }
+  .text{
+    font-weight: 400;
+  }
   .text, .landing__text, .dynamic__texts{
     font-size: 35px;
     text-align: center;
@@ -630,10 +633,11 @@ SKELETON
    flex-direction: column-reverse;
   }
   .acerca__title{
-    font-size: 90px;
+    font-size: 67px;
   }
   .acerca__img--wrapper{
-    width: 350px;
+    width: 400px;
+    margin-top: 50px;
   }
   .acerca__text{
     font-size: 30px;
