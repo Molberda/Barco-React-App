@@ -365,7 +365,8 @@ CONTACTANOS
   display: flex;
   width: 500px;
   height: 400px;
-  border: 1px solid white;
+  border: 3px solid white;
+  box-shadow: 0 0 26px 0 white;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -649,6 +650,14 @@ SKELETON
   }
   .contactanos__title{
     font-size: 67px;
+  }
+  .contactanos__text{
+    font-size: 30px;
+  }
+  .map__wrapper{
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
   }
 
   footer{
