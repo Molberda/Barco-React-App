@@ -645,7 +645,10 @@ SKELETON
   }
 
   #contactanos{
-    display:none
+    height: fit-content;
+  }
+  .contactanos__title{
+    font-size: 67px;
   }
 
   footer{

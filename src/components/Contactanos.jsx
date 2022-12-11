@@ -4,8 +4,8 @@ import Map from "../ui/Map";
 const Contactanos = () => {
   return (
     <section id="contactanos">
-      <div className="row ubicacion__row">
-        <div className="container ubicacion__container">
+      <div className="container ubicacion__container">
+        <div className="row ubicacion__row">
           <div className="contactanos__organizer">
             <h1 className="contactanos__title title">Contáctanos</h1>
             <p className="contactanos__text text">
