@@ -584,7 +584,7 @@ SKELETON
 @media (max-width: 1020px){
 
 }
-@media (max-width: 768px){
+@media (max-width: 850px){
   .landing__container{
     padding-top: 130px;
     height: fit-content;
