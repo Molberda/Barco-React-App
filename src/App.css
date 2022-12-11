@@ -660,7 +660,7 @@ SKELETON
     margin-top: 50px;
   }
 
-  footer{
-    display: none;
+  .footer__logo--wrapper{
+  width: 180px;
   }
 }
