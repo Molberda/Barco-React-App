@@ -584,7 +584,9 @@ SKELETON
 
 }
 @media (max-width: 768px){
-
+  .landing__container{
+    padding-top: 150px;
+  }
   .row{
     flex-wrap: wrap;
     justify-content: center;
