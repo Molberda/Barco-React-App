@@ -5,7 +5,7 @@ import Logo from "../assets/barco__logo.png";
 
 const Nav = ({ link1, link2, link3, name1, name2, name3 }) => {
   function openMenu(){
-    
+    document.querySelector('body').classList.toggle('bars__menu')
   }
   return (
       <nav>
