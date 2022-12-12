@@ -123,6 +123,10 @@ nav {
   width: 240px;
 }
 
+.nav__bars{
+  display: none;
+}
+
 .nav__link--list {
   display: flex;
   justify-content: space-evenly;
@@ -600,6 +604,9 @@ SKELETON
   }
   .barco__logo--wrapper{
     width: 200px;
+  }
+  .nav__bars{
+    display: block;
   }
   .nav__link--list{
     display: none;

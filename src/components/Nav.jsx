@@ -29,6 +29,9 @@ const Nav = ({ link1, link2, link3, name1, name2, name3 }) => {
             </Link>
           </li>
         </ul>
+        <button className="nav__bars">
+          
+        </button>
       </nav>
   );
 };
