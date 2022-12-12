@@ -516,6 +516,7 @@ option {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu__item--wrapper {
@@ -670,6 +671,9 @@ SKELETON
   }
   .footer__logo--wrapper:hover .footer__pop-out{
     transform: translate(100px, -50%);
+  }
+  .filter--group{
+    padding-left: 60px;
   }
   .menu__item--wrapper{
     width: 30%;
