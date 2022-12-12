@@ -4,6 +4,7 @@ import Contactanos from "../components/Contactanos";
 import Footer from "../components/Footer";
 import Landing from "../components/Landing";
 import Nav from "../components/Nav";
+import Burger from "../ui/Burger";
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
 
   return (
     <div>
+      <Burger/>
       <Nav name1="Acerca de Nosotros" link1="#acerca" name2="Contáctanos" link2="#contactanos" name3="Menú" link3="/menu"/>
       <Landing />
       <Acerca />

@@ -86,9 +86,15 @@ a {
 
 /* 
 
-BARS MENU
+BURGER MENU
 
 */
+
+
+.fa-circle-xmark{
+  color: white;
+  font-size: 40px;
+}
 
 .bars__menu{
   height: 100vh;
