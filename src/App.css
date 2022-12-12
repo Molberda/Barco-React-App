@@ -125,6 +125,13 @@ nav {
 
 .nav__bars{
   display: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.fa-bars{
+  color: white;
+  font-size: 40px;
 }
 
 .nav__link--list {

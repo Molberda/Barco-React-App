@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/barco__logo.png";
@@ -30,7 +31,7 @@ const Nav = ({ link1, link2, link3, name1, name2, name3 }) => {
           </li>
         </ul>
         <button className="nav__bars">
-          
+          <FontAwesomeIcon icon="fa-solid fa-bars"/>
         </button>
       </nav>
   );
