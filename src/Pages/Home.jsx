@@ -14,7 +14,6 @@ const Home = () => {
 
   return (
     <div>
-      <Burger/>
       <Nav name1="Acerca de Nosotros" link1="#acerca" name2="Contáctanos" link2="#contactanos" name3="Menú" link3="/menu"/>
       <Landing />
       <Acerca />

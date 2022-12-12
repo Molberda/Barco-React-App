@@ -5,8 +5,10 @@ const Burger = () => {
   return (
     <div className="burger">
       <button className="burger__close">
-        <FontAwesomeIcon icon="fa-regular fa-circle-xmark" />
+        Close Menu
+        <FontAwesomeIcon icon="fa-solid fa-times-circle"/>
       </button>
+      
     </div>
   );
 };

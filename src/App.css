@@ -90,21 +90,35 @@ BURGER MENU
 
 */
 
-
-.fa-circle-xmark{
-  color: white;
-  font-size: 40px;
+.burger {
+  display: flex;
+  justify-content: center;
 }
 
-.bars__menu{
+.burger__close {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.bars__menu {
   height: 100vh;
   width: 100%;
   background-color: #020621;
   z-index: 10;
 }
 
-.bars__menu .app{
+.bars__menu .app {
   display: none;
+}
+
+.fa-circle-xmark {
+  margin-left: 8px;
+  color: white;
+  font-size: 32px;
 }
 
 /* 
@@ -146,14 +160,14 @@ nav {
   width: 240px;
 }
 
-.nav__bars{
+.nav__bars {
   display: none;
   background-color: transparent;
   cursor: pointer;
   border: none;
 }
 
-.fa-bars{
+.fa-bars {
   color: white;
   font-size: 40px;
 }
@@ -617,103 +631,104 @@ SKELETON
   border-radius: 6px;
 }
 
-@media (max-width: 1020px){
-
+@media (max-width: 1020px) {
 }
-@media (max-width: 850px){
-  .landing__container{
+@media (max-width: 850px) {
+  .landing__container {
     padding-top: 130px;
     height: fit-content;
   }
-  .row{
+  .row {
     flex-wrap: wrap;
     justify-content: center;
     max-height: none;
   }
-  .organizer{
+  .organizer {
     max-width: 500px;
   }
-  .barco__logo--wrapper{
+  .barco__logo--wrapper {
     width: 200px;
   }
-  .nav__bars{
+  .nav__bars {
     display: block;
   }
-  .nav__link--list{
+  .nav__link--list {
     display: none;
   }
-  .title{
+  .title {
     font-size: 100px;
     text-align: center;
   }
-  .text{
+  .text {
     font-weight: 400;
   }
-  .text, .landing__text, .dynamic__texts{
+  .text,
+  .landing__text,
+  .dynamic__texts {
     font-size: 35px;
     text-align: center;
     max-width: none;
   }
-  .typing__wrapper{
+  .typing__wrapper {
     justify-content: center;
   }
-  .static__text{
+  .static__text {
     margin-top: 9px;
   }
-  .landing__img--wrapper{
+  .landing__img--wrapper {
     margin: 50px 0;
     width: 350px;
   }
   .scroll__icon {
     display: none;
   }
-  #acerca{
+  #acerca {
     height: 85vh;
   }
-  .acerca__row{
-   flex-direction: column-reverse;
+  .acerca__row {
+    flex-direction: column-reverse;
   }
-  .acerca__title{
+  .acerca__title {
     font-size: 67px;
   }
-  .acerca__img--wrapper{
+  .acerca__img--wrapper {
     width: 400px;
     margin-top: 50px;
   }
-  .acerca__text{
+  .acerca__text {
     font-size: 30px;
     margin: 0;
   }
 
-  #contactanos{
+  #contactanos {
     height: 85vh;
     padding-top: 0;
     height: fit-content;
   }
-  .contactanos__title{
+  .contactanos__title {
     font-size: 67px;
   }
-  .contactanos__text{
+  .contactanos__text {
     font-size: 30px;
   }
-  .map__wrapper{
+  .map__wrapper {
     width: 350px;
     height: 350px;
     margin-top: 50px;
   }
-  .footer__logo--wrapper{
-  width: 180px;
+  .footer__logo--wrapper {
+    width: 180px;
   }
-  .footer__link{
+  .footer__link {
     font-size: 20px;
   }
-  .footer__logo--wrapper:hover .footer__pop-out{
+  .footer__logo--wrapper:hover .footer__pop-out {
     transform: translate(100px, -50%);
   }
-  .filter--group{
+  .filter--group {
     padding-left: 60px;
   }
-  .menu__item--wrapper{
+  .menu__item--wrapper {
     width: 30%;
   }
 }
