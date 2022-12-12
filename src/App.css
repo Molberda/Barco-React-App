@@ -127,6 +127,7 @@ nav {
   display: none;
   background-color: transparent;
   cursor: pointer;
+  border: none;
 }
 
 .fa-bars{
