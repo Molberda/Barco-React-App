@@ -630,7 +630,7 @@ SKELETON
     display: none;
   }
   #acerca{
-    height: 100vh;
+    height: 85vh;
   }
   .acerca__row{
    flex-direction: column-reverse;
@@ -648,6 +648,7 @@ SKELETON
   }
 
   #contactanos{
+    height: 85vh;
     padding-top: 0;
     height: fit-content;
   }
@@ -662,7 +663,6 @@ SKELETON
     height: 350px;
     margin-top: 50px;
   }
-
   .footer__logo--wrapper{
   width: 180px;
   }
