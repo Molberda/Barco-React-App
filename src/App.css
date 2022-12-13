@@ -679,7 +679,7 @@ SKELETON
     height: fit-content;
   }
   .row {
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     max-height: none;
   }
@@ -733,7 +733,7 @@ SKELETON
   }
   .acerca__img--wrapper {
     width: 400px;
-    margin-top: 50px;
+    margin: 50px 0 0 0;
   }
   .acerca__text {
     font-size: 30px;
@@ -752,9 +752,8 @@ SKELETON
     font-size: 30px;
   }
   .map__wrapper {
-    width: 350px;
-    height: 350px;
-    margin-top: 50px;
+    aspect-ratio: 1 / 1;
+    margin: 50px 0 0 0 ;
   }
   .footer__logo--wrapper {
     width: 180px;
