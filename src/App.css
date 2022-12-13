@@ -101,6 +101,9 @@ BURGER MENU
 }
 
 .burger__close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
   display: flex;
   align-items: center;
   font-size: 22px;
