@@ -772,3 +772,7 @@ SKELETON
     width: 30%;
   }
 }
+
+@media (max-width: 560px) {
+  
+}
