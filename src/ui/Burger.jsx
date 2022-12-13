@@ -14,10 +14,10 @@ const Burger = () => {
       </button>
       <ul className="burger__link--list">
         <li className="burger__list--item">
-          <Link to="/" onClick={() => closeMenu()}>Home</Link>
+          <Link className="burger__link" to="/" onClick={() => closeMenu()}>Home</Link>
         </li>
         <li className="burger__list--item">
-          <Link to="/menu" onClick={() => closeMenu()}>Menú</Link>
+          <Link className="burger__link" to="/menu" onClick={() => closeMenu()}>Menú</Link>
         </li>
       </ul>
     </div>
