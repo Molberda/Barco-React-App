@@ -795,7 +795,11 @@ SKELETON
   }
 
   .acerca__title, .contactanos__title{
-    font-size: 64px;
+    font-size: 48px;
+  }
+
+  .acerca__text, .contactanos__text{
+    font-size: 24px;
   }
 
   .acerca__img--wrapper{
