@@ -775,7 +775,7 @@ SKELETON
 
 @media (max-width: 560px) {
   .title{
-    font-size: 80px;
+    font-size: 70px;
   }
   .text, .static__text, .dynamic__texts{
     font-size: 28px;
@@ -784,5 +784,13 @@ SKELETON
   .static__text{
     margin-top: 16px;
     margin-left: 10px;
+  }
+
+  .landing__img--wrapper{
+    
+  }
+
+  .acerca__title, .contactanos__title{
+    font-size: 64px;
   }
 }
