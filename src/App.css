@@ -805,4 +805,8 @@ SKELETON
   .acerca__img--wrapper{
     max-width: 90%;
   }
+
+  .footer__link--list{
+    align-items: center;
+  }
 }
