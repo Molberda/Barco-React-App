@@ -567,8 +567,6 @@ MENU
 
 #filter {
   height: 26px;
-  width: 16%;
-  right: 0;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 12px;
@@ -808,5 +806,13 @@ SKELETON
 
   .footer__link--list{
     align-items: center;
+  }
+
+  .filter--group{
+    padding-left: 28px;
+  }
+
+  .menu__item--wrapper{
+    width: 50%;
   }
 }
