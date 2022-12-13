@@ -3,9 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Burger = () => {
+  function closeMenu(){
+    document.body.classList.remove("bars__menu")
+  }
   return (
     <div className="burger">
-      <button className="burger__close">
+      <button className="burger__close" onClick={() => closeMenu()}>
         Close Menu
         <FontAwesomeIcon icon="fa-solid fa-times-circle"/>
       </button>
