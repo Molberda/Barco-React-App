@@ -804,6 +804,10 @@ SKELETON
     max-width: 90%;
   }
 
+  .map__wrapper{
+    max-width: 90%;
+  }
+
   .footer__link--list{
     align-items: center;
   }
