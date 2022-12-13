@@ -193,7 +193,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
+  min-width: 45%;
 }
 
 .nav__list--item {
