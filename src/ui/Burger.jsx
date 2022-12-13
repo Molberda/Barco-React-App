@@ -13,6 +13,9 @@ const Burger = () => {
         <li className="buger__list--item">
           <Link to="/">Home</Link>
         </li>
+        <li className="buger__list--item">
+          <Link to="/menu">Menú</Link>
+        </li>
       </ul>
     </div>
   );
