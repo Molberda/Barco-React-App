@@ -44,7 +44,7 @@ body {
 .container {
   padding-top: 80px;
   height: 100%;
-  animation: slideInR 1000ms 500ms backwards;
+  animation: slideInR 1000ms 500ms backwards ease-in-out;
 }
 
 .organizer {
@@ -156,7 +156,7 @@ nav {
   height: 8vh;
   margin: 12px auto 0;
   padding: 0 24px;
-  animation: slideIn 1000ms 500ms backwards;
+  animation: slideIn 1000ms 500ms backwards ease-in-out;
   z-index: 5;
 }
 
