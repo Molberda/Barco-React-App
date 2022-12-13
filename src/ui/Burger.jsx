@@ -8,7 +8,7 @@ const Burger = () => {
         Close Menu
         <FontAwesomeIcon icon="fa-solid fa-times-circle"/>
       </button>
-      
+      <ul className="burger__link--list"></ul>
     </div>
   );
 };
