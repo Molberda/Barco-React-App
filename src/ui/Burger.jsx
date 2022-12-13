@@ -13,11 +13,11 @@ const Burger = () => {
         <FontAwesomeIcon icon="fa-solid fa-times-circle"/>
       </button>
       <ul className="burger__link--list">
-        <li className="buger__list--item">
-          <Link to="/">Home</Link>
+        <li className="burger__list--item">
+          <Link to="/" onClick={() => closeMenu()}>Home</Link>
         </li>
-        <li className="buger__list--item">
-          <Link to="/menu">Menú</Link>
+        <li className="burger__list--item">
+          <Link to="/menu" onClick={() => closeMenu()}>Menú</Link>
         </li>
       </ul>
     </div>
