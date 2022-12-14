@@ -820,3 +820,40 @@ SKELETON
     width: 50%;
   }
 }
+
+@media (max-width: 425px) {
+  .row{
+    padding: 0 12px;
+  }
+  .landing__container{
+    padding-top: 80px;
+  }
+
+  .landing__img--wrapper{
+    margin: 0;
+    width: 70%;
+  }
+
+  .title{
+    font-size: 60px;
+  }
+
+  .text{
+    font-size: 24px;
+  }
+
+  .acerca__title, .contactanos__title{
+    font-size: 46px;
+  }
+
+  .acerca__text, .contactanos__text{
+    font-size: 20px;
+  }
+  .footer__list--item{
+    display: flex;
+  }
+  .footer__link{
+    font-size: 14px;
+    text-align: center;
+  }
+}
