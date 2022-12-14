@@ -8,7 +8,7 @@ const Nav = ({ link1, link2, link3, name1, name2, name3 }) => {
     document.body.classList += " bars__menu"
   }
   return (
-    <nav>
+    <nav id="nav">
       <Link to="/">
         <figure className="barco__logo--wrapper">
           <img src={Logo} alt="logo" className="barco__logo" />
