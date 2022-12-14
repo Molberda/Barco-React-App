@@ -546,6 +546,7 @@ footer {
 }
 
 .copyright {
+  text-align: center;
   font-size: 12px;
   margin-top: 2px;
 }
@@ -835,7 +836,7 @@ SKELETON
   }
 
   .title{
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .text{
@@ -843,11 +844,19 @@ SKELETON
   }
 
   .acerca__title, .contactanos__title{
-    font-size: 46px;
+    font-size: 35px;
   }
 
   .acerca__text, .contactanos__text{
     font-size: 20px;
+  }
+
+  footer{
+    padding: 10px 0 ;
+  }
+
+  .footer__row{
+    gap: 4px;
   }
   .footer__list--item{
     display: flex;
@@ -855,5 +864,15 @@ SKELETON
   .footer__link{
     font-size: 14px;
     text-align: center;
+  }
+  .footer__logo--wrapper{
+    width: 120px;
+  }
+
+  .footer__pop-out{
+    display: none
+  }
+  .copyright{
+    font-size: 10px;
   }
 }
