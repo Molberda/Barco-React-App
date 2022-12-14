@@ -11,7 +11,7 @@ const Footer = ({ link1, link2, link3, name1, name2, name3 }) => {
           <span className="footer__pop-out">
             Top <FontAwesomeIcon icon="fa-solid fa-arrow-up" />{" "}
           </span>
-          <a href="#landing" className="logo__link">
+          <a href="#nav" className="logo__link">
             <img src={Logo} alt="" className="footer__logo" />
           </a>
         </figure>
