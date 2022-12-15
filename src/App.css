@@ -663,6 +663,10 @@ SKELETON
   .acerca__title, .contactanos__title{
     font-size: 70px;
   }
+
+  #contactanos{
+    height: fit-content;
+  }
   .map__wrapper{
     max-width: 40%;
   }
