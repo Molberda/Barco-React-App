@@ -401,7 +401,7 @@ ACERCA
 }
 
 .acerca__title {
-  font-size: 95px;
+  font-size: 90px;
   text-align: center;
 }
 
@@ -418,9 +418,13 @@ CONTACTANOS
 */
 
 #contactanos {
-  height: 60vh;
+  height: fit-content;
   padding-top: 100px;
   margin-bottom: 100px;
+}
+
+.contactanos__title{
+  font-size: 90px;
 }
 
 .ubicacion__row {
@@ -662,10 +666,6 @@ SKELETON
   }
   .acerca__title, .contactanos__title{
     font-size: 70px;
-  }
-
-  #contactanos{
-    height: fit-content;
   }
   .map__wrapper{
     max-width: 40%;
