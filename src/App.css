@@ -468,6 +468,7 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
+  animation: slideIn 1s 200ms backwards ease;
 }
 
 .footer__row {
