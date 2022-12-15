@@ -285,7 +285,7 @@ LANDING
 }
 
 .dynamic__texts li {
-  animation: slide 12s steps(4) 1s infinite;
+  animation: slide 12s steps(4) 2s infinite;
   position: relative;
   top: 0;
 }
@@ -307,7 +307,7 @@ LANDING
   width: 100%;
   border-left: 2px solid red;
   left: 0;
-  animation: typing 3s steps(15) 1s infinite;
+  animation: typing 3s steps(15) 2s infinite;
   background-color: #020621;
 }
 
@@ -920,7 +920,35 @@ and (max-height: 950px)
 and (max-height: 500px)
 and (orientation: landscape)
 {
+  .barco__logo--wrapper{
+    width: 120px;
+  }
+  .nav__link{
+    font-size: 18px;
+  }
   #landing{
+    height: 100vh;
+  }
+  .row{
+    width: 100%;
+  }
+  .title{
+    font-size: 70px;
+  }
+  .landing__text, .typing__text{
+    font-size: 30px;
+  }
+  /* .typing__wrapper{
+    align-items: center;
+  } */
+  .static__text{
+    margin-top: 8px;
+  }
+  .typing__text::after{
+    left: 0;
+    top: 0;
+  }
+  .scroll__icon{
     display: none;
   }
 }
