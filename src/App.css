@@ -887,6 +887,10 @@ PHONES
 }
 
 @media (min-width: 400px) and (min-height:900px){
+
+  #landing{
+    display: none;
+  }
   .landing__container{
     padding-top: 130px;
   }
