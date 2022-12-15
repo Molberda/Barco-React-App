@@ -954,6 +954,10 @@ and (orientation: landscape)
   .scroll__icon{
     display: none;
   }
+
+  .acerca__title, .contactanos__title{
+    font-size: 50px;
+  }
   footer{
     padding: 8px 0;
   }
