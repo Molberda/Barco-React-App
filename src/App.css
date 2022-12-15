@@ -938,6 +938,10 @@ and (orientation: landscape)
   #landing{
     height: 100vh;
   }
+  .landing__container{
+    height: fit-content;
+    padding: 0;
+  }
   .landing__text, .typing__text{
     font-size: 30px;
   }
