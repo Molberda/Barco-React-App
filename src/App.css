@@ -940,10 +940,13 @@ and (orientation: landscape)
   }
   .landing__container{
     height: fit-content;
-    padding: 0;
+    padding-top: 48px;
   }
   .landing__text, .typing__text{
     font-size: 30px;
+  }
+  .landing__img--wrapper{
+    margin: 0 28px ;
   }
   .typing__wrapper{
     align-items: center;
