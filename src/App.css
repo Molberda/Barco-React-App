@@ -655,7 +655,7 @@ SKELETON
   border-radius: 6px;
 }
 
-@media (max-width: 1170px) {
+@media only screen and (max-width: 1170px) {
   .row{
     max-width: 1100px;
   }
@@ -683,7 +683,7 @@ TABLETS
 */
 
 
-@media (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   .landing__container {
     padding-top: 130px;
     height: fit-content;
@@ -789,7 +789,7 @@ PHONES
 
 */
 
-@media (max-width: 425px) {
+@media only screen and (max-width: 425px) {
   .title{
     font-size: 70px;
   }
@@ -891,7 +891,13 @@ PHONES
   }
 }
 
-@media (min-width: 10px) and (min-height:780px){
+/* 
+
+TALL PHONES PORTRAIT
+
+*/
+
+@media only screen and (min-width: 10px) and (min-height:780px){
   .landing__container{
     padding-top: 130px;
   }
@@ -901,3 +907,13 @@ PHONES
   }
 
 }
+
+/* 
+
+LANDSCAPE
+
+*/
+/* 
+@media only screen and {
+  
+} */
