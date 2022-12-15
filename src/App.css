@@ -913,7 +913,14 @@ TALL PHONES PORTRAIT
 LANDSCAPE
 
 */
-/* 
-@media only screen and {
-  
-} */
+
+
+@media only screen 
+and (max-height: 950px)
+and (max-height: 500px)
+and (orientation: landscape)
+{
+  #landing{
+    display: none;
+  }
+}
