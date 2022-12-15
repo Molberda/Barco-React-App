@@ -961,7 +961,9 @@ and (orientation: landscape)
   .scroll__icon{
     display: none;
   }
-
+  #acerca{
+    height: fit-content;
+  }
   .acerca__title, .contactanos__title{
     font-size: 50px;
   }
