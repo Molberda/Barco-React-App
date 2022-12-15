@@ -886,7 +886,7 @@ PHONES
   }
 }
 
-@media (min-width: 380px) and (min-height:840px){
+@media (min-width: 10px) and (min-height:780px){
 
   #landing{
     display: none;
