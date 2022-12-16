@@ -108,7 +108,7 @@ export const items = [
         id: 16,
         name: "Agua con Gas Manantial",
         type: "bebida",
-        url: "https://licoreralasucursal.com/wp-content/uploads/2020/02/agua-manantial.jpg",
+        url: "https://copservir.vtexassets.com/arquivos/ids/764146/AGUA-MANANTIAL-CON-GAS_F.png?v=637950269357130000",
         price: 2.5
     },
     {
