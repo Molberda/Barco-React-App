@@ -9,7 +9,7 @@ const Burger = () => {
   return (
     <div className="burger">
       <button className="burger__close" onClick={() => closeMenu()}>
-        Close Menu
+        Cerrar Menú
         <FontAwesomeIcon icon="fa-solid fa-times-circle"/>
       </button>
       <ul className="burger__link--list">
