@@ -128,7 +128,7 @@ export const items = [
     {
         id: 19,
         name: "Cigarrillos",
-        type: "fumables",
+        type: "fumable",
         url: "https://newyorkstore.com.co/wp-content/uploads/LUCKY-STRIKE-DAIQUIRI-20.jpg",
         price: 7.5
     },
@@ -138,5 +138,12 @@ export const items = [
         type: "comida",
         url: "https://copservir.vtexassets.com/arquivos/ids/770822/PAPA-MARGARITA-NATURAL_F.png?v=637951123764830000",
         price: 2.5
+    },
+    {
+        id: 21,
+        name: "Porción de Chicharron",
+        type: "comida",
+        url: "https://tofuu.getjusto.com/orioneat-prod/nnotAeLdNGMY6KTqT-porcion-chicharron%20(1).jpg",
+        price: 10.5
     },
 ]
