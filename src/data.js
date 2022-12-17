@@ -125,4 +125,11 @@ export const items = [
         url: "https://cdn.shopify.com/s/files/1/0492/2458/1274/products/supermercados_la_vaquita_supervaquita_gaseosa_sprite_400ml_bebidas_liquidas_700x700.jpg?v=1620489364",
         price: 3.5
     },
+    {
+        id: 19,
+        name: "Cigarrillos",
+        type: "fumables",
+        url: "https://newyorkstore.com.co/wp-content/uploads/LUCKY-STRIKE-DAIQUIRI-20.jpg",
+        price: 3.5
+    },
 ]
