@@ -130,6 +130,13 @@ export const items = [
         name: "Cigarrillos",
         type: "fumables",
         url: "https://newyorkstore.com.co/wp-content/uploads/LUCKY-STRIKE-DAIQUIRI-20.jpg",
-        price: 3.5
+        price: 7.5
+    },
+    {
+        id: 20,
+        name: "Papas",
+        type: "comida",
+        url: "https://copservir.vtexassets.com/arquivos/ids/770822/PAPA-MARGARITA-NATURAL_F.png?v=637951123764830000",
+        price: 2.5
     },
 ]
