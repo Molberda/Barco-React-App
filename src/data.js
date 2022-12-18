@@ -59,7 +59,7 @@ export const items = [
         id: 9,
         name: "Pizza Personal",
         type: "comida",
-        url: "https://media.istockphoto.com/id/496546118/photo/slice-of-fresh-italian-classic-original-pepperoni-pizza-isolated.jpg?s=612x612&w=0&k=20&c=7aYapAwoe4fO5jRiNMIFiflIztcBAA8s-GLqAmBiSgA=",
+        url: "https://www.quiktrip.com/app/uploads/2021/10/Pizza_XL_Pepperoni_1200x900.jpg",
         price: 24
     },
     {
@@ -159,5 +159,12 @@ export const items = [
         type: "comida",
         url: "https://exitocol.vtexassets.com/arquivos/ids/15751013-800-auto?v=638053503191030000&width=800&height=auto&aspect=true",
         price: 2.5
+    },
+    {
+        id: 24,
+        name: "Porcion de Pizza",
+        type: "comida",
+        url: "https://media.istockphoto.com/id/496546118/photo/slice-of-fresh-italian-classic-original-pepperoni-pizza-isolated.jpg?s=612x612&w=0&k=20&c=7aYapAwoe4fO5jRiNMIFiflIztcBAA8s-GLqAmBiSgA=",
+        price: 6.5
     },
 ]
