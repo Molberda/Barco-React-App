@@ -146,4 +146,11 @@ export const items = [
         url: "https://tofuu.getjusto.com/orioneat-prod/nnotAeLdNGMY6KTqT-porcion-chicharron%20(1).jpg",
         price: 10.5
     },
+    {
+        id: 22,
+        name: "Platanitos",
+        type: "comida",
+        url: "https://colsubsidio.vteximg.com.br/arquivos/ids/166444-1200-1200/7702189045720.jpg?v=637299796745430000",
+        price: 2.5
+    },
 ]
