@@ -57,7 +57,7 @@ img {
 }
 
 a {
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
   font-size: 24px;
 }
 
@@ -74,13 +74,13 @@ a {
 }
 
 .title {
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
   font-size: 120px;
 }
 
 .text {
   font-size: 30px;
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
   text-align: justify;
 }
 
@@ -114,7 +114,7 @@ BURGER MENU
   font-size: 22px;
   background: transparent;
   border: none;
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
 }
 
 .burger__link{
@@ -134,7 +134,7 @@ BURGER MENU
 
 .fa-circle-xmark {
   margin-left: 8px;
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
   font-size: 32px;
 }
 
@@ -172,7 +172,7 @@ nav {
 .barco__logo--wrapper {
   display: flex;
   overflow: hidden;
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255, 0.9);
   border-radius: 10px;
   width: 240px;
 }
@@ -185,7 +185,7 @@ nav {
 }
 
 .fa-bars {
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
   font-size: 40px;
 }
 
@@ -203,8 +203,8 @@ nav {
 .nav__link--primary {
   font-size: 28px;
   padding: 0 12px;
-  border: 2px solid white;
-  background-color: white;
+  border: 2px solid rgb(255, 255, 255, 0.9);
+  background-color: rgb(255, 255, 255, 0.9);
   border-radius: 10px;
   color: #020621;
 }
@@ -215,7 +215,7 @@ nav {
   right: 0;
   width: 0;
   height: 2px;
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.9);
   border-radius: 4px;
   transition: all 300ms ease;
 }
@@ -258,7 +258,7 @@ LANDING
 }
 
 .landing__text {
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
   font-size: 45px;
   font-weight: 400;
   text-align: justify;
@@ -267,7 +267,7 @@ LANDING
 
 .typing__wrapper {
   display: flex;
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
   gap: 10px;
 }
 
@@ -323,9 +323,9 @@ LANDING
   margin: 80px 28px;
   width: 500px;
   padding: 12px;
-  border: 5px solid white;
+  border: 5px solid rgb(255, 255, 255, 0.9);
   border-radius: 20px;
-  box-shadow: 0 0 26px 0 white;
+  box-shadow: 0 0 26px 0 rgb(255, 255, 255, 0.9);
   animation: rot 2500ms infinite alternate-reverse;
 }
 
@@ -340,7 +340,7 @@ LANDING
 
 .scroll__icon {
   position: absolute;
-  border: 3px solid white;
+  border: 3px solid rgb(255, 255, 255, 0.9);
   border-radius: 20px;
   height: 44px;
   width: 24px;
@@ -357,7 +357,7 @@ LANDING
 .scroll__dot {
   width: 4px;
   height: 8px;
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.9);
   border-radius: 8px;
   animation: scroll 2s infinite alternate-reverse;
 }
@@ -390,10 +390,10 @@ ACERCA
 .acerca__img--wrapper {
   display: flex;
   max-width: 450px;
-  border: 5px solid white;
+  border: 5px solid rgb(255, 255, 255, 0.9);
   margin-right: 28px;
   border-radius: 20px;
-  box-shadow: 0 0 26px 0 white;
+  box-shadow: 0 0 26px 0 rgb(255, 255, 255, 0.9);
 }
 
 .acerca__organizer {
@@ -438,8 +438,8 @@ CONTACTANOS
   width: 500px;
   aspect-ratio: 1.3/1;
   margin-left: 28px;
-  border: 3px solid white;
-  box-shadow: 0 0 26px 0 white;
+  border: 3px solid rgb(255, 255, 255, 0.9);
+  box-shadow: 0 0 26px 0 rgb(255, 255, 255, 0.9);
   border-radius: 20px;
   overflow: hidden;
 }
@@ -603,7 +603,7 @@ option {
   border-radius: 24px;
   overflow: hidden;
   margin-bottom: 8px;
-  box-shadow: 0 0 14px white;
+  box-shadow: 0 0 14px rgb(255, 255, 255, 0.9);
 }
 
 .item__img {
@@ -618,11 +618,11 @@ option {
 }
 
 .item__name {
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
 }
 
 .item__price {
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
 }
 
 /* 
@@ -634,7 +634,7 @@ SKELETON
 .skeleton {
   background-color: lightgrey;
   margin-bottom: 8px;
-  box-shadow: 0 0 8px white;
+  box-shadow: 0 0 8px rgb(255, 255, 255, 0.9);
 }
 
 .item__img-skeleton-wrapper {
