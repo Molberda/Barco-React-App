@@ -181,4 +181,11 @@ export const items = [
         url: "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185386/7702025103744-1.jpg?v=637813978880900000",
         price: 1
     },
+    {
+        id: 27,
+        name: "Brownie",
+        type: "comida",
+        url: "https://chefsavvy.com/wp-content/uploads/super-chewy-brownies.jpg",
+        price: 3
+    },
 ]
