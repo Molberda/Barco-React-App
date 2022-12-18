@@ -167,4 +167,11 @@ export const items = [
         url: "https://media.istockphoto.com/id/496546118/photo/slice-of-fresh-italian-classic-original-pepperoni-pizza-isolated.jpg?s=612x612&w=0&k=20&c=7aYapAwoe4fO5jRiNMIFiflIztcBAA8s-GLqAmBiSgA=",
         price: 6.5
     },
+    {
+        id: 25,
+        name: "Chocoramo",
+        type: "comida",
+        url: "https://mercaldas.vtexassets.com/arquivos/ids/1296846/Chocoramo-RAMO-x55-g_114015.jpg?v=638017928700870000",
+        price: 2
+    },
 ]
