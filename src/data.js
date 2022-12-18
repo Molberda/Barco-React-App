@@ -153,4 +153,11 @@ export const items = [
         url: "https://colsubsidio.vteximg.com.br/arquivos/ids/166444-1200-1200/7702189045720.jpg?v=637299796745430000",
         price: 2.5
     },
+    {
+        id: 23,
+        name: "Choclitos",
+        type: "comida",
+        url: "https://exitocol.vtexassets.com/arquivos/ids/15751013-800-auto?v=638053503191030000&width=800&height=auto&aspect=true",
+        price: 2.5
+    },
 ]
