@@ -174,4 +174,11 @@ export const items = [
         url: "https://mercaldas.vtexassets.com/arquivos/ids/1296846/Chocoramo-RAMO-x55-g_114015.jpg?v=638017928700870000",
         price: 2
     },
+    {
+        id: 26,
+        name: "Galletas festival",
+        type: "comida",
+        url: "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185386/7702025103744-1.jpg?v=637813978880900000",
+        price: 1
+    },
 ]
