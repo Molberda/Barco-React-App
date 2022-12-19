@@ -52,6 +52,10 @@ const Menu = ({ items: initialItems }) => {
     }
   }
 
+  function showItems(){
+
+  }
+
   return (
     <div>
       <Nav link3="/" name3="Home"/>
@@ -81,7 +85,7 @@ const Menu = ({ items: initialItems }) => {
                 <Menuitem item={item} key={item.id} />
               )).slice(0,15)}
             </div>
-            <button className="open__items">Show all Items</button>
+            <button className="open__items" onClick={showItems}>Show all Items</button>
           </div>
         </div>
       </section>
