@@ -52,10 +52,6 @@ const Menu = ({ items: initialItems }) => {
     }
   }
 
-  function showItems(){
-
-  }
-
   return (
     <div>
       <Nav link3="/" name3="Home"/>
@@ -80,12 +76,11 @@ const Menu = ({ items: initialItems }) => {
                 <option value="FUMABLE">Para Fumar</option>
               </select>
             </div>
-            <div className="menu__organizer">
+            <div id="menOrg" className="menu__organizer">
               {items.map((item) => (
                 <Menuitem item={item} key={item.id} />
-              )).slice(0,15)}
+              ))}
             </div>
-            <button className="open__items" onClick={showItems}>Show all Items</button>
           </div>
         </div>
       </section>
