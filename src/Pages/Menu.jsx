@@ -81,6 +81,7 @@ const Menu = ({ items: initialItems }) => {
                 <Menuitem item={item} key={item.id} />
               )).slice(0,15)}
             </div>
+            <button className="open__items">Show all Items</button>
           </div>
         </div>
       </section>
