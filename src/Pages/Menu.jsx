@@ -79,7 +79,7 @@ const Menu = ({ items: initialItems }) => {
             <div className="menu__organizer">
               {items.map((item) => (
                 <Menuitem item={item} key={item.id} />
-              ))}
+              )).slice(0,15)}
             </div>
           </div>
         </div>
