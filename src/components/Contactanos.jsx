@@ -10,7 +10,7 @@ const Contactanos = () => {
             <h1 className="contactanos__title title">Contáctanos</h1>
             <p className="contactanos__text text">
               Estamos ubicados en la calle 99 # 9a-29 <br /> Abiertos de Lunes a
-              Sabado 1:00pm-11:00pm <br />
+              Sábado 1:00pm-11:00pm <br />
               Síguenos en Instagram{" "}
               <a
                 href="https://www.instagram.com/barco_pola/"
