@@ -21,7 +21,7 @@ const Contactanos = () => {
                 @Barco_Pola
               </a>{" "}
               <br />
-              No dudes en contactarnos!! 👍
+              ¡¡No dudes en contactarnos!! 👍
             </p>
           </div>
           <Map />
