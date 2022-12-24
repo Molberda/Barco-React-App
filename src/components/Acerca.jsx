@@ -16,7 +16,7 @@ const Acerca = () => {
               Bar.Co es un bar que se caracteriza por ser la única empresa en
               apostarle a ser low cost en su segmento, a diferencia de las
               tiendas de barrio tiene un ambiente moderno y aspiracional
-              conservado los mejores precios.
+              conservando los mejores precios.
             </h2>
           </div>
           <Scroll link="#contactanos" />
