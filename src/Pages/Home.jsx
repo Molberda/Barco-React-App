@@ -4,7 +4,6 @@ import Contactanos from "../components/Contactanos";
 import Footer from "../components/Footer";
 import Landing from "../components/Landing";
 import Nav from "../components/Nav";
-import Burger from "../ui/Burger";
 
 const Home = () => {
 
